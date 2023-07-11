@@ -1,0 +1,14 @@
+Determining the gflags namespace passed with the following output:
+Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4893/fast && /usr/bin/make  -f CMakeFiles/cmTC_c4893.dir/build.make CMakeFiles/cmTC_c4893.dir/build
+make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4893.dir/DetermineGflagsNamespace.cxx.o
+/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGLOG_GFLAGS_NAMESPACE=gflags  -fPIE -o CMakeFiles/cmTC_c4893.dir/DetermineGflagsNamespace.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/DetermineGflagsNamespace.cxx
+Linking CXX executable cmTC_c4893
+/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4893.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_c4893.dir/DetermineGflagsNamespace.cxx.o -o cmTC_c4893  /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2 -lpthread 
+make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+
+
+

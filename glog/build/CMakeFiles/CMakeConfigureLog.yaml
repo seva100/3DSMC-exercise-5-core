@@ -1,0 +1,2948 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 5.15.0-1041-azure - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/3.26.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8WLuN8"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8WLuN8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8WLuN8
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c0c53/fast && /usr/bin/make  -f CMakeFiles/cmTC_c0c53.dir/build.make CMakeFiles/cmTC_c0c53.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8WLuN8'
+        Building CXX object CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o -c /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc61ppph.s
+        GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/9
+         /usr/include/x86_64-linux-gnu/c++/9
+         /usr/include/c++/9/backward
+         /usr/lib/gcc/x86_64-linux-gnu/9/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc61ppph.s
+        GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_c0c53
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0c53.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c0c53 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0c53' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGpYFI9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c0c53 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0c53' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8WLuN8'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/9]
+          add: [/usr/include/x86_64-linux-gnu/c++/9]
+          add: [/usr/include/c++/9/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+        collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8WLuN8]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c0c53/fast && /usr/bin/make  -f CMakeFiles/cmTC_c0c53.dir/build.make CMakeFiles/cmTC_c0c53.dir/build]
+        ignore line: [make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8WLuN8']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o -c /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc61ppph.s]
+        ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/9]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+        ignore line: [ /usr/include/c++/9/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc61ppph.s]
+        ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_c0c53]
+        ignore line: [/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0c53.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c0c53 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0c53' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGpYFI9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c0c53 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccGpYFI9.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c0c53] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+          arg [CMakeFiles/cmTC_c0c53.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/DetermineGflagsNamespace.cmake:34 (try_compile)"
+      - "CMakeLists.txt:88 (determine_gflags_namespace)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "gflags_NAMESPACE"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4893/fast && /usr/bin/make  -f CMakeFiles/cmTC_c4893.dir/build.make CMakeFiles/cmTC_c4893.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_c4893.dir/DetermineGflagsNamespace.cxx.o
+        /usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGLOG_GFLAGS_NAMESPACE=gflags  -fPIE -o CMakeFiles/cmTC_c4893.dir/DetermineGflagsNamespace.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/DetermineGflagsNamespace.cxx
+        Linking CXX executable cmTC_c4893
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4893.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_c4893.dir/DetermineGflagsNamespace.cxx.o -o cmTC_c4893  /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2 -lpthread 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:92 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-x8PaY9"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-x8PaY9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-x8PaY9
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9eb9a/fast && /usr/bin/make  -f CMakeFiles/cmTC_9eb9a.dir/build.make CMakeFiles/cmTC_9eb9a.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-x8PaY9'
+        Building CXX object CMakeFiles/cmTC_9eb9a.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_9eb9a.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-x8PaY9/src.cxx
+        Linking CXX executable cmTC_9eb9a
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eb9a.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_9eb9a.dir/src.cxx.o -o cmTC_9eb9a 
+        /usr/bin/ld: CMakeFiles/cmTC_9eb9a.dir/src.cxx.o: in function `main':
+        src.cxx:(.text+0x46): undefined reference to `pthread_create'
+        /usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
+        /usr/bin/ld: src.cxx:(.text+0x5e): undefined reference to `pthread_cancel'
+        /usr/bin/ld: src.cxx:(.text+0x6f): undefined reference to `pthread_join'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_9eb9a.dir/build.make:99: cmTC_9eb9a] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-x8PaY9'
+        make: *** [Makefile:127: cmTC_9eb9a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:92 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bpGRVb"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bpGRVb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bpGRVb
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4771a/fast && /usr/bin/make  -f CMakeFiles/cmTC_4771a.dir/build.make CMakeFiles/cmTC_4771a.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bpGRVb'
+        Building CXX object CMakeFiles/cmTC_4771a.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_4771a.dir/CheckFunctionExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bpGRVb/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_4771a
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4771a.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_4771a.dir/CheckFunctionExists.cxx.o -o cmTC_4771a  -lpthreads 
+        /usr/bin/ld: cannot find -lpthreads
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_4771a.dir/build.make:99: cmTC_4771a] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bpGRVb'
+        make: *** [Makefile:127: cmTC_4771a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:92 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-kyQtDb"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-kyQtDb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-kyQtDb
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1f9d1/fast && /usr/bin/make  -f CMakeFiles/cmTC_1f9d1.dir/build.make CMakeFiles/cmTC_1f9d1.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-kyQtDb'
+        Building CXX object CMakeFiles/cmTC_1f9d1.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_1f9d1.dir/CheckFunctionExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-kyQtDb/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_1f9d1
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f9d1.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_1f9d1.dir/CheckFunctionExists.cxx.o -o cmTC_1f9d1  -lpthread 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-kyQtDb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:101 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for _Unwind_Backtrace"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FP1Ap8"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FP1Ap8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE__UNWIND_BACKTRACE"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FP1Ap8
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b2628/fast && /usr/bin/make  -f CMakeFiles/cmTC_b2628.dir/build.make CMakeFiles/cmTC_b2628.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FP1Ap8'
+        Building CXX object CMakeFiles/cmTC_b2628.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_b2628.dir/CheckSymbolExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FP1Ap8/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_b2628
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2628.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_b2628.dir/CheckSymbolExists.cxx.o -o cmTC_b2628 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FP1Ap8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:102 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for _Unwind_GetIP"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8S7Tb9"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8S7Tb9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE__UNWIND_GETIP"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8S7Tb9
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c0dad/fast && /usr/bin/make  -f CMakeFiles/cmTC_c0dad.dir/build.make CMakeFiles/cmTC_c0dad.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8S7Tb9'
+        Building CXX object CMakeFiles/cmTC_c0dad.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_c0dad.dir/CheckSymbolExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8S7Tb9/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_c0dad
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0dad.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_c0dad.dir/CheckSymbolExists.cxx.o -o cmTC_c0dad 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-8S7Tb9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:105 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include dlfcn.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-3itgG9"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-3itgG9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-3itgG9
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_76dcb/fast && /usr/bin/make  -f CMakeFiles/cmTC_76dcb.dir/build.make CMakeFiles/cmTC_76dcb.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-3itgG9'
+        Building CXX object CMakeFiles/cmTC_76dcb.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_76dcb.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-3itgG9/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_76dcb
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76dcb.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_76dcb.dir/CheckIncludeFile.cxx.o -o cmTC_76dcb 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-3itgG9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:106 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include glob.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bs1Sm9"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bs1Sm9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_GLOB_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bs1Sm9
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e2b61/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2b61.dir/build.make CMakeFiles/cmTC_e2b61.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bs1Sm9'
+        Building CXX object CMakeFiles/cmTC_e2b61.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_e2b61.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bs1Sm9/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_e2b61
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2b61.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e2b61.dir/CheckIncludeFile.cxx.o -o cmTC_e2b61 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bs1Sm9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:107 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include memory.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-KzaLhb"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-KzaLhb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_MEMORY_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-KzaLhb
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8b8d7/fast && /usr/bin/make  -f CMakeFiles/cmTC_8b8d7.dir/build.make CMakeFiles/cmTC_8b8d7.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-KzaLhb'
+        Building CXX object CMakeFiles/cmTC_8b8d7.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_8b8d7.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-KzaLhb/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_8b8d7
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b8d7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_8b8d7.dir/CheckIncludeFile.cxx.o -o cmTC_8b8d7 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-KzaLhb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:108 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include pwd.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-H2eRFa"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-H2eRFa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PWD_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-H2eRFa
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_84584/fast && /usr/bin/make  -f CMakeFiles/cmTC_84584.dir/build.make CMakeFiles/cmTC_84584.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-H2eRFa'
+        Building CXX object CMakeFiles/cmTC_84584.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_84584.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-H2eRFa/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_84584
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84584.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_84584.dir/CheckIncludeFile.cxx.o -o cmTC_84584 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-H2eRFa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:109 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include strings.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-d5zxBb"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-d5zxBb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-d5zxBb
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ccfb7/fast && /usr/bin/make  -f CMakeFiles/cmTC_ccfb7.dir/build.make CMakeFiles/cmTC_ccfb7.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-d5zxBb'
+        Building CXX object CMakeFiles/cmTC_ccfb7.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_ccfb7.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-d5zxBb/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_ccfb7
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccfb7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_ccfb7.dir/CheckIncludeFile.cxx.o -o cmTC_ccfb7 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-d5zxBb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:110 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/stat.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-pZEPc8"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-pZEPc8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-pZEPc8
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f1e6b/fast && /usr/bin/make  -f CMakeFiles/cmTC_f1e6b.dir/build.make CMakeFiles/cmTC_f1e6b.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-pZEPc8'
+        Building CXX object CMakeFiles/cmTC_f1e6b.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_f1e6b.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-pZEPc8/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_f1e6b
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1e6b.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_f1e6b.dir/CheckIncludeFile.cxx.o -o cmTC_f1e6b 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-pZEPc8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:111 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/syscall.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-XYexO8"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-XYexO8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_SYSCALL_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-XYexO8
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4c2c3/fast && /usr/bin/make  -f CMakeFiles/cmTC_4c2c3.dir/build.make CMakeFiles/cmTC_4c2c3.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-XYexO8'
+        Building CXX object CMakeFiles/cmTC_4c2c3.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_4c2c3.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-XYexO8/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_4c2c3
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c2c3.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_4c2c3.dir/CheckIncludeFile.cxx.o -o cmTC_4c2c3 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-XYexO8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:112 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/time.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-oL9huc"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-oL9huc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-oL9huc
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8346b/fast && /usr/bin/make  -f CMakeFiles/cmTC_8346b.dir/build.make CMakeFiles/cmTC_8346b.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-oL9huc'
+        Building CXX object CMakeFiles/cmTC_8346b.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_8346b.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-oL9huc/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_8346b
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8346b.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_8346b.dir/CheckIncludeFile.cxx.o -o cmTC_8346b 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-oL9huc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:113 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/types.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SjQHf8"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SjQHf8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SjQHf8
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1c94a/fast && /usr/bin/make  -f CMakeFiles/cmTC_1c94a.dir/build.make CMakeFiles/cmTC_1c94a.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SjQHf8'
+        Building CXX object CMakeFiles/cmTC_1c94a.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_1c94a.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SjQHf8/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_1c94a
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c94a.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_1c94a.dir/CheckIncludeFile.cxx.o -o cmTC_1c94a 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SjQHf8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:114 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/utsname.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-a1BmRb"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-a1BmRb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_UTSNAME_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-a1BmRb
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_08349/fast && /usr/bin/make  -f CMakeFiles/cmTC_08349.dir/build.make CMakeFiles/cmTC_08349.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-a1BmRb'
+        Building CXX object CMakeFiles/cmTC_08349.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_08349.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-a1BmRb/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_08349
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08349.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_08349.dir/CheckIncludeFile.cxx.o -o cmTC_08349 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-a1BmRb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:115 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/wait.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-UlTZ3a"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-UlTZ3a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_WAIT_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-UlTZ3a
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_702a2/fast && /usr/bin/make  -f CMakeFiles/cmTC_702a2.dir/build.make CMakeFiles/cmTC_702a2.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-UlTZ3a'
+        Building CXX object CMakeFiles/cmTC_702a2.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_702a2.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-UlTZ3a/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_702a2
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_702a2.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_702a2.dir/CheckIncludeFile.cxx.o -o cmTC_702a2 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-UlTZ3a'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:116 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include syscall.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bQtvCc"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bQtvCc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYSCALL_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bQtvCc
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4d427/fast && /usr/bin/make  -f CMakeFiles/cmTC_4d427.dir/build.make CMakeFiles/cmTC_4d427.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bQtvCc'
+        Building CXX object CMakeFiles/cmTC_4d427.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_4d427.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bQtvCc/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_4d427
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d427.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_4d427.dir/CheckIncludeFile.cxx.o -o cmTC_4d427 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-bQtvCc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:117 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include syslog.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-YHOCab"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-YHOCab"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYSLOG_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-YHOCab
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3991d/fast && /usr/bin/make  -f CMakeFiles/cmTC_3991d.dir/build.make CMakeFiles/cmTC_3991d.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-YHOCab'
+        Building CXX object CMakeFiles/cmTC_3991d.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_3991d.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-YHOCab/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_3991d
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3991d.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_3991d.dir/CheckIncludeFile.cxx.o -o cmTC_3991d 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-YHOCab'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:118 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include ucontext.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mgv9Aa"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mgv9Aa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UCONTEXT_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mgv9Aa
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_64ab5/fast && /usr/bin/make  -f CMakeFiles/cmTC_64ab5.dir/build.make CMakeFiles/cmTC_64ab5.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mgv9Aa'
+        Building CXX object CMakeFiles/cmTC_64ab5.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_64ab5.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mgv9Aa/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_64ab5
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64ab5.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_64ab5.dir/CheckIncludeFile.cxx.o -o cmTC_64ab5 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mgv9Aa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "CMakeLists.txt:119 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include unistd.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-9qOMy8"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-9qOMy8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-9qOMy8
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c8738/fast && /usr/bin/make  -f CMakeFiles/cmTC_c8738.dir/build.make CMakeFiles/cmTC_c8738.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-9qOMy8'
+        Building CXX object CMakeFiles/cmTC_c8738.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_c8738.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-9qOMy8/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_c8738
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8738.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_c8738.dir/CheckIncludeFile.cxx.o -o cmTC_c8738 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-9qOMy8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:261 (check_include_file_cxx)"
+      - "CMakeLists.txt:121 (check_type_size)"
+    checks:
+      - "Looking for C++ include stdint.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uZKHY9"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uZKHY9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uZKHY9
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4fbf3/fast && /usr/bin/make  -f CMakeFiles/cmTC_4fbf3.dir/build.make CMakeFiles/cmTC_4fbf3.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uZKHY9'
+        Building CXX object CMakeFiles/cmTC_4fbf3.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_4fbf3.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uZKHY9/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_4fbf3
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fbf3.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_4fbf3.dir/CheckIncludeFile.cxx.o -o cmTC_4fbf3 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uZKHY9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:262 (check_include_file_cxx)"
+      - "CMakeLists.txt:121 (check_type_size)"
+    checks:
+      - "Looking for C++ include stddef.h"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-Ug7j49"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-Ug7j49"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-Ug7j49
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_68305/fast && /usr/bin/make  -f CMakeFiles/cmTC_68305.dir/build.make CMakeFiles/cmTC_68305.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-Ug7j49'
+        Building CXX object CMakeFiles/cmTC_68305.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_68305.dir/CheckIncludeFile.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-Ug7j49/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_68305
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68305.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_68305.dir/CheckIncludeFile.cxx.o -o cmTC_68305 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-Ug7j49'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:121 (check_type_size)"
+    checks:
+      - "Check size of mode_t"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-MJ4Jic"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-MJ4Jic"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_HAVE_MODE_T"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-MJ4Jic
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_29c92/fast && /usr/bin/make  -f CMakeFiles/cmTC_29c92.dir/build.make CMakeFiles/cmTC_29c92.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-MJ4Jic'
+        Building CXX object CMakeFiles/cmTC_29c92.dir/HAVE_MODE_T.cpp.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_29c92.dir/HAVE_MODE_T.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-MJ4Jic/HAVE_MODE_T.cpp
+        Linking CXX executable cmTC_29c92
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29c92.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_29c92.dir/HAVE_MODE_T.cpp.o -o cmTC_29c92 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-MJ4Jic'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:122 (check_type_size)"
+    checks:
+      - "Check size of ssize_t"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-dI6XUb"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-dI6XUb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_HAVE_SSIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-dI6XUb
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5ff7f/fast && /usr/bin/make  -f CMakeFiles/cmTC_5ff7f.dir/build.make CMakeFiles/cmTC_5ff7f.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-dI6XUb'
+        Building CXX object CMakeFiles/cmTC_5ff7f.dir/HAVE_SSIZE_T.cpp.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_5ff7f.dir/HAVE_SSIZE_T.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-dI6XUb/HAVE_SSIZE_T.cpp
+        Linking CXX executable cmTC_5ff7f
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ff7f.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_5ff7f.dir/HAVE_SSIZE_T.cpp.o -o cmTC_5ff7f 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-dI6XUb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:124 (check_function_exists)"
+    checks:
+      - "Looking for dladdr"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-feHSKb"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-feHSKb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DLADDR"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-feHSKb
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_85745/fast && /usr/bin/make  -f CMakeFiles/cmTC_85745.dir/build.make CMakeFiles/cmTC_85745.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-feHSKb'
+        Building CXX object CMakeFiles/cmTC_85745.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=dladdr -fPIE -o CMakeFiles/cmTC_85745.dir/CheckFunctionExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-feHSKb/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_85745
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85745.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=dladdr CMakeFiles/cmTC_85745.dir/CheckFunctionExists.cxx.o -o cmTC_85745 
+        /usr/bin/ld: CMakeFiles/cmTC_85745.dir/CheckFunctionExists.cxx.o: in function `main':
+        CheckFunctionExists.cxx:(.text+0x14): undefined reference to `dladdr'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_85745.dir/build.make:99: cmTC_85745] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-feHSKb'
+        make: *** [Makefile:127: cmTC_85745/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:125 (check_function_exists)"
+    checks:
+      - "Looking for fcntl"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FsMhS8"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FsMhS8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_FCNTL"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FsMhS8
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5d48a/fast && /usr/bin/make  -f CMakeFiles/cmTC_5d48a.dir/build.make CMakeFiles/cmTC_5d48a.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FsMhS8'
+        Building CXX object CMakeFiles/cmTC_5d48a.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=fcntl -fPIE -o CMakeFiles/cmTC_5d48a.dir/CheckFunctionExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FsMhS8/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_5d48a
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d48a.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=fcntl CMakeFiles/cmTC_5d48a.dir/CheckFunctionExists.cxx.o -o cmTC_5d48a 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-FsMhS8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:126 (check_function_exists)"
+    checks:
+      - "Looking for pread"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-znlNic"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-znlNic"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PREAD"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-znlNic
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_82bb1/fast && /usr/bin/make  -f CMakeFiles/cmTC_82bb1.dir/build.make CMakeFiles/cmTC_82bb1.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-znlNic'
+        Building CXX object CMakeFiles/cmTC_82bb1.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pread -fPIE -o CMakeFiles/cmTC_82bb1.dir/CheckFunctionExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-znlNic/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_82bb1
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82bb1.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pread CMakeFiles/cmTC_82bb1.dir/CheckFunctionExists.cxx.o -o cmTC_82bb1 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-znlNic'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:127 (check_function_exists)"
+    checks:
+      - "Looking for pwrite"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mDvit8"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mDvit8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PWRITE"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mDvit8
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b26bc/fast && /usr/bin/make  -f CMakeFiles/cmTC_b26bc.dir/build.make CMakeFiles/cmTC_b26bc.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mDvit8'
+        Building CXX object CMakeFiles/cmTC_b26bc.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pwrite -fPIE -o CMakeFiles/cmTC_b26bc.dir/CheckFunctionExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mDvit8/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_b26bc
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b26bc.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pwrite CMakeFiles/cmTC_b26bc.dir/CheckFunctionExists.cxx.o -o cmTC_b26bc 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mDvit8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:128 (check_function_exists)"
+    checks:
+      - "Looking for sigaction"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-i0jQHb"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-i0jQHb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SIGACTION"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-i0jQHb
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_52f4a/fast && /usr/bin/make  -f CMakeFiles/cmTC_52f4a.dir/build.make CMakeFiles/cmTC_52f4a.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-i0jQHb'
+        Building CXX object CMakeFiles/cmTC_52f4a.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=sigaction -fPIE -o CMakeFiles/cmTC_52f4a.dir/CheckFunctionExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-i0jQHb/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_52f4a
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52f4a.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=sigaction CMakeFiles/cmTC_52f4a.dir/CheckFunctionExists.cxx.o -o cmTC_52f4a 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-i0jQHb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:129 (check_function_exists)"
+    checks:
+      - "Looking for sigaltstack"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-escMKb"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-escMKb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SIGALTSTACK"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-escMKb
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7ca49/fast && /usr/bin/make  -f CMakeFiles/cmTC_7ca49.dir/build.make CMakeFiles/cmTC_7ca49.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-escMKb'
+        Building CXX object CMakeFiles/cmTC_7ca49.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=sigaltstack -fPIE -o CMakeFiles/cmTC_7ca49.dir/CheckFunctionExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-escMKb/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_7ca49
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ca49.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=sigaltstack CMakeFiles/cmTC_7ca49.dir/CheckFunctionExists.cxx.o -o cmTC_7ca49 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-escMKb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:131 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for backtrace"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-v9K1K8"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-v9K1K8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_EXECINFO_BACKTRACE"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-v9K1K8
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7d6f7/fast && /usr/bin/make  -f CMakeFiles/cmTC_7d6f7.dir/build.make CMakeFiles/cmTC_7d6f7.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-v9K1K8'
+        Building CXX object CMakeFiles/cmTC_7d6f7.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_7d6f7.dir/CheckSymbolExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-v9K1K8/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_7d6f7
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d6f7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_7d6f7.dir/CheckSymbolExists.cxx.o -o cmTC_7d6f7 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-v9K1K8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:132 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for backtrace_symbols"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-D7ki5a"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-D7ki5a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_EXECINFO_BACKTRACE_SYMBOLS"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-D7ki5a
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1637d/fast && /usr/bin/make  -f CMakeFiles/cmTC_1637d.dir/build.make CMakeFiles/cmTC_1637d.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-D7ki5a'
+        Building CXX object CMakeFiles/cmTC_1637d.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_1637d.dir/CheckSymbolExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-D7ki5a/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_1637d
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1637d.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_1637d.dir/CheckSymbolExists.cxx.o -o cmTC_1637d 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-D7ki5a'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:141 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_NO_DEPRECATED"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6YMrq8"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6YMrq8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_NO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6YMrq8
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9fc4f/fast && /usr/bin/make  -f CMakeFiles/cmTC_9fc4f.dir/build.make CMakeFiles/cmTC_9fc4f.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6YMrq8'
+        Building CXX object CMakeFiles/cmTC_9fc4f.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_NO_DEPRECATED  -fPIE   -Wdeprecated -o CMakeFiles/cmTC_9fc4f.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6YMrq8/src.cxx
+        Linking CXX executable cmTC_9fc4f
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fc4f.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_9fc4f.dir/src.cxx.o -o cmTC_9fc4f 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6YMrq8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:142 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-JMwy09"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-JMwy09"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-JMwy09
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_41766/fast && /usr/bin/make  -f CMakeFiles/cmTC_41766.dir/build.make CMakeFiles/cmTC_41766.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-JMwy09'
+        Building CXX object CMakeFiles/cmTC_41766.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS  -fPIE   -Wunnamed-type-template-args -o CMakeFiles/cmTC_41766.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-JMwy09/src.cxx
+        c++: error: unrecognized command line option '-Wunnamed-type-template-args'
+        make[1]: *** [CMakeFiles/cmTC_41766.dir/build.make:78: CMakeFiles/cmTC_41766.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-JMwy09'
+        make: *** [Makefile:127: cmTC_41766/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:151 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for pthread_threadid_np"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-42AE78"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-42AE78"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PTHREAD_THREADID_NP"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-42AE78
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e6531/fast && /usr/bin/make  -f CMakeFiles/cmTC_e6531.dir/build.make CMakeFiles/cmTC_e6531.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-42AE78'
+        Building CXX object CMakeFiles/cmTC_e6531.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_e6531.dir/CheckSymbolExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-42AE78/CheckSymbolExists.cxx
+        /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-42AE78/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+        /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-42AE78/CheckSymbolExists.cxx:8:19: error: ‘pthread_threadid_np’ was not declared in this scope; did you mean ‘pthread_tryjoin_np’?
+            8 |   return ((int*)(&pthread_threadid_np))[argc];
+              |                   ^~~~~~~~~~~~~~~~~~~
+              |                   pthread_tryjoin_np
+        make[1]: *** [CMakeFiles/cmTC_e6531.dir/build.make:78: CMakeFiles/cmTC_e6531.dir/CheckSymbolExists.cxx.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-42AE78'
+        make: *** [Makefile:127: cmTC_e6531/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:156 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for snprintf"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uCEOFa"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uCEOFa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uCEOFa
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_200bb/fast && /usr/bin/make  -f CMakeFiles/cmTC_200bb.dir/build.make CMakeFiles/cmTC_200bb.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uCEOFa'
+        Building CXX object CMakeFiles/cmTC_200bb.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -fPIE -o CMakeFiles/cmTC_200bb.dir/CheckSymbolExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uCEOFa/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_200bb
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_200bb.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_200bb.dir/CheckSymbolExists.cxx.o -o cmTC_200bb 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-uCEOFa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "CMakeLists.txt:158 (check_library_exists)"
+    checks:
+      - "Looking for UnDecorateSymbolName in dbghelp"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-yOGV8b"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-yOGV8b"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DBGHELP"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-yOGV8b
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_34398/fast && /usr/bin/make  -f CMakeFiles/cmTC_34398.dir/build.make CMakeFiles/cmTC_34398.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-yOGV8b'
+        Building CXX object CMakeFiles/cmTC_34398.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -fPIE -o CMakeFiles/cmTC_34398.dir/CheckFunctionExists.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-yOGV8b/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_34398
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34398.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName CMakeFiles/cmTC_34398.dir/CheckFunctionExists.cxx.o -o cmTC_34398  -ldbghelp 
+        /usr/bin/ld: cannot find -ldbghelp
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_34398.dir/build.make:99: cmTC_34398] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-yOGV8b'
+        make: *** [Makefile:127: cmTC_34398/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:160 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE___ATTRIBUTE__"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-rfsvBa"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-rfsvBa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE___ATTRIBUTE__"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-rfsvBa
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c5cdf/fast && /usr/bin/make  -f CMakeFiles/cmTC_c5cdf.dir/build.make CMakeFiles/cmTC_c5cdf.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-rfsvBa'
+        Building CXX object CMakeFiles/cmTC_c5cdf.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE___ATTRIBUTE__  -fPIE -o CMakeFiles/cmTC_c5cdf.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-rfsvBa/src.cxx
+        Linking CXX executable cmTC_c5cdf
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5cdf.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_c5cdf.dir/src.cxx.o -o cmTC_c5cdf 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-rfsvBa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:166 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-LUkInc"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-LUkInc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE___ATTRIBUTE__VISIBILITY_DEFAULT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-LUkInc
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_35789/fast && /usr/bin/make  -f CMakeFiles/cmTC_35789.dir/build.make CMakeFiles/cmTC_35789.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-LUkInc'
+        Building CXX object CMakeFiles/cmTC_35789.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT  -fPIE -o CMakeFiles/cmTC_35789.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-LUkInc/src.cxx
+        /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-LUkInc/src.cxx:3:61: warning: ‘visibility’ attribute ignored [-Wattributes]
+            3 | static void foo(void) __attribute__ ((visibility("default")));
+              |                                                             ^
+        Linking CXX executable cmTC_35789
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35789.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_35789.dir/src.cxx.o -o cmTC_35789 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-LUkInc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:172 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-qwftbc"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-qwftbc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE___ATTRIBUTE__VISIBILITY_HIDDEN"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-qwftbc
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c5c40/fast && /usr/bin/make  -f CMakeFiles/cmTC_c5c40.dir/build.make CMakeFiles/cmTC_c5c40.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-qwftbc'
+        Building CXX object CMakeFiles/cmTC_c5c40.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN  -fPIE -o CMakeFiles/cmTC_c5c40.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-qwftbc/src.cxx
+        /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-qwftbc/src.cxx:3:60: warning: ‘visibility’ attribute ignored [-Wattributes]
+            3 | static void foo(void) __attribute__ ((visibility("hidden")));
+              |                                                            ^
+        Linking CXX executable cmTC_c5c40
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5c40.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_c5c40.dir/src.cxx.o -o cmTC_c5c40 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-qwftbc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:178 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE___BUILTIN_EXPECT"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mexlXa"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mexlXa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE___BUILTIN_EXPECT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mexlXa
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_72bb3/fast && /usr/bin/make  -f CMakeFiles/cmTC_72bb3.dir/build.make CMakeFiles/cmTC_72bb3.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mexlXa'
+        Building CXX object CMakeFiles/cmTC_72bb3.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE___BUILTIN_EXPECT  -fPIE -o CMakeFiles/cmTC_72bb3.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mexlXa/src.cxx
+        Linking CXX executable cmTC_72bb3
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72bb3.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_72bb3.dir/src.cxx.o -o cmTC_72bb3 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-mexlXa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:182 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE___SYNC_VAL_COMPARE_AND_SWAP"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6tJdA9"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6tJdA9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE___SYNC_VAL_COMPARE_AND_SWAP"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6tJdA9
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_45d1a/fast && /usr/bin/make  -f CMakeFiles/cmTC_45d1a.dir/build.make CMakeFiles/cmTC_45d1a.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6tJdA9'
+        Building CXX object CMakeFiles/cmTC_45d1a.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE___SYNC_VAL_COMPARE_AND_SWAP  -fPIE -o CMakeFiles/cmTC_45d1a.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6tJdA9/src.cxx
+        Linking CXX executable cmTC_45d1a
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45d1a.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_45d1a.dir/src.cxx.o -o cmTC_45d1a 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-6tJdA9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:192 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_RWLOCK"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SyMUr9"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SyMUr9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_RWLOCK"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SyMUr9
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_12af1/fast && /usr/bin/make  -f CMakeFiles/cmTC_12af1.dir/build.make CMakeFiles/cmTC_12af1.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SyMUr9'
+        Building CXX object CMakeFiles/cmTC_12af1.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_RWLOCK  -fPIE -o CMakeFiles/cmTC_12af1.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SyMUr9/src.cxx
+        Linking CXX executable cmTC_12af1
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12af1.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_12af1.dir/src.cxx.o -o cmTC_12af1  -lpthread 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-SyMUr9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:206 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE___DECLSPEC"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-NUaD68"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-NUaD68"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE___DECLSPEC"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-NUaD68
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5a1bd/fast && /usr/bin/make  -f CMakeFiles/cmTC_5a1bd.dir/build.make CMakeFiles/cmTC_5a1bd.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-NUaD68'
+        Building CXX object CMakeFiles/cmTC_5a1bd.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE___DECLSPEC  -fPIE -o CMakeFiles/cmTC_5a1bd.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-NUaD68/src.cxx
+        /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-NUaD68/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+            2 | __declspec(selectany) int a;
+              |           ^
+        make[1]: *** [CMakeFiles/cmTC_5a1bd.dir/build.make:78: CMakeFiles/cmTC_5a1bd.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-NUaD68'
+        make: *** [Makefile:127: cmTC_5a1bd/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_58854/fast && /usr/bin/make  -f CMakeFiles/cmTC_58854.dir/build.make CMakeFiles/cmTC_58854.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_58854.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_58854.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_58854.dir/build.make:78: CMakeFiles/cmTC_58854.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_58854/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_496b4/fast && /usr/bin/make  -f CMakeFiles/cmTC_496b4.dir/build.make CMakeFiles/cmTC_496b4.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_496b4.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_496b4.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_496b4.dir/build.make:78: CMakeFiles/cmTC_496b4.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_496b4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_77339/fast && /usr/bin/make  -f CMakeFiles/cmTC_77339.dir/build.make CMakeFiles/cmTC_77339.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_77339.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_77339.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_77339.dir/build.make:78: CMakeFiles/cmTC_77339.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_77339/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_006dd/fast && /usr/bin/make  -f CMakeFiles/cmTC_006dd.dir/build.make CMakeFiles/cmTC_006dd.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_006dd.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_006dd.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_006dd.dir/build.make:78: CMakeFiles/cmTC_006dd.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_006dd/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4f568/fast && /usr/bin/make  -f CMakeFiles/cmTC_4f568.dir/build.make CMakeFiles/cmTC_4f568.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_4f568.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_4f568.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_4f568.dir/build.make:78: CMakeFiles/cmTC_4f568.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_4f568/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7e07b/fast && /usr/bin/make  -f CMakeFiles/cmTC_7e07b.dir/build.make CMakeFiles/cmTC_7e07b.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_7e07b.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_7e07b.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_7e07b.dir/build.make:78: CMakeFiles/cmTC_7e07b.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_7e07b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1b53a/fast && /usr/bin/make  -f CMakeFiles/cmTC_1b53a.dir/build.make CMakeFiles/cmTC_1b53a.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_1b53a.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_1b53a.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_1b53a.dir/build.make:78: CMakeFiles/cmTC_1b53a.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_1b53a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3c85e/fast && /usr/bin/make  -f CMakeFiles/cmTC_3c85e.dir/build.make CMakeFiles/cmTC_3c85e.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_3c85e.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_3c85e.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_3c85e.dir/build.make:78: CMakeFiles/cmTC_3c85e.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_3c85e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c28a4/fast && /usr/bin/make  -f CMakeFiles/cmTC_c28a4.dir/build.make CMakeFiles/cmTC_c28a4.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_c28a4.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_c28a4.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_c28a4.dir/build.make:78: CMakeFiles/cmTC_c28a4.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_c28a4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3934c/fast && /usr/bin/make  -f CMakeFiles/cmTC_3934c.dir/build.make CMakeFiles/cmTC_3934c.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_3934c.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_3934c.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_3934c.dir/build.make:78: CMakeFiles/cmTC_3934c.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_3934c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b1af1/fast && /usr/bin/make  -f CMakeFiles/cmTC_b1af1.dir/build.make CMakeFiles/cmTC_b1af1.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_b1af1.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_b1af1.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_b1af1.dir/build.make:78: CMakeFiles/cmTC_b1af1.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_b1af1/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_02592/fast && /usr/bin/make  -f CMakeFiles/cmTC_02592.dir/build.make CMakeFiles/cmTC_02592.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_02592.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_02592.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_02592.dir/build.make:78: CMakeFiles/cmTC_02592.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_02592/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d1e73/fast && /usr/bin/make  -f CMakeFiles/cmTC_d1e73.dir/build.make CMakeFiles/cmTC_d1e73.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_d1e73.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_d1e73.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_d1e73.dir/build.make:78: CMakeFiles/cmTC_d1e73.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_d1e73/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_be585/fast && /usr/bin/make  -f CMakeFiles/cmTC_be585.dir/build.make CMakeFiles/cmTC_be585.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_be585.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_be585.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_be585.dir/build.make:78: CMakeFiles/cmTC_be585.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_be585/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ba029/fast && /usr/bin/make  -f CMakeFiles/cmTC_ba029.dir/build.make CMakeFiles/cmTC_ba029.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_ba029.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_ba029.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_ba029.dir/build.make:78: CMakeFiles/cmTC_ba029.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_ba029/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_083c0/fast && /usr/bin/make  -f CMakeFiles/cmTC_083c0.dir/build.make CMakeFiles/cmTC_083c0.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_083c0.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_083c0.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_083c0.dir/build.make:78: CMakeFiles/cmTC_083c0.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_083c0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_237e6/fast && /usr/bin/make  -f CMakeFiles/cmTC_237e6.dir/build.make CMakeFiles/cmTC_237e6.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_237e6.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_237e6.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_237e6.dir/build.make:78: CMakeFiles/cmTC_237e6.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_237e6/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fce1d/fast && /usr/bin/make  -f CMakeFiles/cmTC_fce1d.dir/build.make CMakeFiles/cmTC_fce1d.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_fce1d.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_fce1d.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_fce1d.dir/build.make:78: CMakeFiles/cmTC_fce1d.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_fce1d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8d28f/fast && /usr/bin/make  -f CMakeFiles/cmTC_8d28f.dir/build.make CMakeFiles/cmTC_8d28f.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_8d28f.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_8d28f.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_8d28f.dir/build.make:78: CMakeFiles/cmTC_8d28f.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_8d28f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_62522/fast && /usr/bin/make  -f CMakeFiles/cmTC_62522.dir/build.make CMakeFiles/cmTC_62522.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_62522.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_62522.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_62522.dir/build.make:78: CMakeFiles/cmTC_62522.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_62522/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9ef72/fast && /usr/bin/make  -f CMakeFiles/cmTC_9ef72.dir/build.make CMakeFiles/cmTC_9ef72.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_9ef72.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_9ef72.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_9ef72.dir/build.make:78: CMakeFiles/cmTC_9ef72.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_9ef72/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fbc5d/fast && /usr/bin/make  -f CMakeFiles/cmTC_fbc5d.dir/build.make CMakeFiles/cmTC_fbc5d.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_fbc5d.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_fbc5d.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_fbc5d.dir/build.make:78: CMakeFiles/cmTC_fbc5d.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_fbc5d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7706f/fast && /usr/bin/make  -f CMakeFiles/cmTC_7706f.dir/build.make CMakeFiles/cmTC_7706f.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_7706f.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_7706f.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_7706f.dir/build.make:78: CMakeFiles/cmTC_7706f.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_7706f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_98271/fast && /usr/bin/make  -f CMakeFiles/cmTC_98271.dir/build.make CMakeFiles/cmTC_98271.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_98271.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_98271.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_98271.dir/build.make:78: CMakeFiles/cmTC_98271.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_98271/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f9c8/fast && /usr/bin/make  -f CMakeFiles/cmTC_8f9c8.dir/build.make CMakeFiles/cmTC_8f9c8.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_8f9c8.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_8f9c8.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_8f9c8.dir/build.make:78: CMakeFiles/cmTC_8f9c8.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_8f9c8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1fac9/fast && /usr/bin/make  -f CMakeFiles/cmTC_1fac9.dir/build.make CMakeFiles/cmTC_1fac9.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_1fac9.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_1fac9.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_1fac9.dir/build.make:78: CMakeFiles/cmTC_1fac9.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_1fac9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8cde8/fast && /usr/bin/make  -f CMakeFiles/cmTC_8cde8.dir/build.make CMakeFiles/cmTC_8cde8.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_8cde8.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_8cde8.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_8cde8.dir/build.make:78: CMakeFiles/cmTC_8cde8.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_8cde8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_633ab/fast && /usr/bin/make  -f CMakeFiles/cmTC_633ab.dir/build.make CMakeFiles/cmTC_633ab.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_633ab.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_633ab.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_633ab.dir/build.make:78: CMakeFiles/cmTC_633ab.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_633ab/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_43856/fast && /usr/bin/make  -f CMakeFiles/cmTC_43856.dir/build.make CMakeFiles/cmTC_43856.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_43856.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_43856.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_43856.dir/build.make:78: CMakeFiles/cmTC_43856.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_43856/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fea0d/fast && /usr/bin/make  -f CMakeFiles/cmTC_fea0d.dir/build.make CMakeFiles/cmTC_fea0d.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_fea0d.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_fea0d.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_fea0d.dir/build.make:78: CMakeFiles/cmTC_fea0d.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_fea0d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f71e9/fast && /usr/bin/make  -f CMakeFiles/cmTC_f71e9.dir/build.make CMakeFiles/cmTC_f71e9.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_f71e9.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_f71e9.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_f71e9.dir/build.make:78: CMakeFiles/cmTC_f71e9.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_f71e9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50950/fast && /usr/bin/make  -f CMakeFiles/cmTC_50950.dir/build.make CMakeFiles/cmTC_50950.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_50950.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_50950.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_50950.dir/build.make:78: CMakeFiles/cmTC_50950.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_50950/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_69d40/fast && /usr/bin/make  -f CMakeFiles/cmTC_69d40.dir/build.make CMakeFiles/cmTC_69d40.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_69d40.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_69d40.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_69d40.dir/build.make:78: CMakeFiles/cmTC_69d40.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_69d40/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:251 (try_compile)"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PC_FROM_UCONTEXT"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_47f47/fast && /usr/bin/make  -f CMakeFiles/cmTC_47f47.dir/build.make CMakeFiles/cmTC_47f47.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_47f47.dir/uctfield.cpp.o
+        /usr/bin/c++   -fPIE   _GNU_SOURCE=1 -o CMakeFiles/cmTC_47f47.dir/uctfield.cpp.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp/uctfield.cpp
+        c++: error: _GNU_SOURCE=1: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_47f47.dir/build.make:78: CMakeFiles/cmTC_47f47.dir/uctfield.cpp.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_47f47/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:355 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_SYMBOLIZE"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-omXQ77"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-omXQ77"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYMBOLIZE"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-omXQ77
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_087e2/fast && /usr/bin/make  -f CMakeFiles/cmTC_087e2.dir/build.make CMakeFiles/cmTC_087e2.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-omXQ77'
+        Building CXX object CMakeFiles/cmTC_087e2.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_SYMBOLIZE  -fPIE -o CMakeFiles/cmTC_087e2.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-omXQ77/src.cxx
+        Linking CXX executable cmTC_087e2
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_087e2.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_087e2.dir/src.cxx.o -o cmTC_087e2 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-omXQ77'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:373 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LOCALTIME_R"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-WeSIia"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-WeSIia"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_LOCALTIME_R"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-WeSIia
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e16c5/fast && /usr/bin/make  -f CMakeFiles/cmTC_e16c5.dir/build.make CMakeFiles/cmTC_e16c5.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-WeSIia'
+        Building CXX object CMakeFiles/cmTC_e16c5.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_LOCALTIME_R  -fPIE -o CMakeFiles/cmTC_e16c5.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-WeSIia/src.cxx
+        Linking CXX executable cmTC_e16c5
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e16c5.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e16c5.dir/src.cxx.o -o cmTC_e16c5 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-WeSIia'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:238 (check_cxx_compiler_flag)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "CMakeLists.txt:573 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-0WYDSa"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-0WYDSa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-0WYDSa
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c5281/fast && /usr/bin/make  -f CMakeFiles/cmTC_c5281.dir/build.make CMakeFiles/cmTC_c5281.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-0WYDSa'
+        Building CXX object CMakeFiles/cmTC_c5281.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_c5281.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-0WYDSa/src.cxx
+        Linking CXX executable cmTC_c5281
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5281.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_c5281.dir/src.cxx.o -o cmTC_c5281 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-0WYDSa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:239 (check_cxx_compiler_flag)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "CMakeLists.txt:573 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-aWtjCc"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-aWtjCc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-aWtjCc
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b4f87/fast && /usr/bin/make  -f CMakeFiles/cmTC_b4f87.dir/build.make CMakeFiles/cmTC_b4f87.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-aWtjCc'
+        Building CXX object CMakeFiles/cmTC_b4f87.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_b4f87.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-aWtjCc/src.cxx
+        Linking CXX executable cmTC_b4f87
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4f87.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_b4f87.dir/src.cxx.o -o cmTC_b4f87 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-aWtjCc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:206 (check_cxx_source_compiles)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "CMakeLists.txt:573 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-cbxlcb"
+      binary: "/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-cbxlcb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/glog/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-cbxlcb
+        
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_54c3e/fast && /usr/bin/make  -f CMakeFiles/cmTC_54c3e.dir/build.make CMakeFiles/cmTC_54c3e.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-cbxlcb'
+        Building CXX object CMakeFiles/cmTC_54c3e.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -fPIE -o CMakeFiles/cmTC_54c3e.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-cbxlcb/src.cxx
+        /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-cbxlcb/src.cxx: In function ‘int main()’:
+        /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-cbxlcb/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+            2 |     int main() { return somefunc();}
+              |                                  ^
+        /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-cbxlcb/src.cxx:1:37: note: declared here
+            1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+              |                                     ^~~~~~~~
+        /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-cbxlcb/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+            2 |     int main() { return somefunc();}
+              |                                  ^
+        /workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-cbxlcb/src.cxx:1:37: note: declared here
+            1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+              |                                     ^~~~~~~~
+        Linking CXX executable cmTC_54c3e
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54c3e.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_54c3e.dir/src.cxx.o -o cmTC_54c3e 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/glog/build/CMakeFiles/CMakeScratch/TryCompile-cbxlcb'
+        
+      exitCode: 0
+...
