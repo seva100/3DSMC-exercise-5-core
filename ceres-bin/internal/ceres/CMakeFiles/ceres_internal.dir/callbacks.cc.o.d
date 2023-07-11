@@ -190,7 +190,10 @@ internal/ceres/CMakeFiles/ceres_internal.dir/callbacks.cc.o: \
  /usr/include/c++/9/bits/stl_multiset.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/evaluation_callback.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/internal/ceres/stringprintf.h \
- /usr/include/c++/9/cstdarg /usr/include/glog/logging.h \
+ /usr/include/c++/9/cstdarg /usr/local/include/glog/logging.h \
+ /usr/include/c++/9/chrono /usr/include/c++/9/ratio \
+ /usr/include/c++/9/ctime /usr/include/c++/9/bits/parse_numbers.h \
+ /usr/include/c++/9/cstddef /usr/include/c++/9/cstring \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
@@ -201,7 +204,9 @@ internal/ceres/CMakeFiles/ceres_internal.dir/callbacks.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/inttypes.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
- /usr/include/gflags/gflags_gflags.h /usr/include/glog/log_severity.h \
- /usr/include/glog/vlog_is_on.h
+ /usr/include/gflags/gflags_gflags.h /usr/include/c++/9/atomic \
+ /usr/local/include/glog/log_severity.h \
+ /usr/local/include/glog/vlog_is_on.h

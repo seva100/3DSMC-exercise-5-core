@@ -93,7 +93,7 @@ rosenbrock_EXTERNAL_OBJECTS =
 bin/rosenbrock: examples/CMakeFiles/rosenbrock.dir/rosenbrock.cc.o
 bin/rosenbrock: examples/CMakeFiles/rosenbrock.dir/build.make
 bin/rosenbrock: lib/libceres.a
-bin/rosenbrock: /usr/lib/x86_64-linux-gnu/libglog.so
+bin/rosenbrock: /usr/local/lib/libglog.so.0.7.0
 bin/rosenbrock: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/rosenbrock: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/rosenbrock: /usr/lib/x86_64-linux-gnu/libcholmod.so

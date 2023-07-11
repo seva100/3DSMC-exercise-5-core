@@ -93,8 +93,8 @@ nist_EXTERNAL_OBJECTS =
 bin/nist: examples/CMakeFiles/nist.dir/nist.cc.o
 bin/nist: examples/CMakeFiles/nist.dir/build.make
 bin/nist: lib/libceres.a
+bin/nist: /usr/local/lib/libglog.so.0.7.0
 bin/nist: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-bin/nist: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/nist: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/nist: /usr/lib/x86_64-linux-gnu/libcholmod.so
 bin/nist: /usr/lib/x86_64-linux-gnu/libamd.so

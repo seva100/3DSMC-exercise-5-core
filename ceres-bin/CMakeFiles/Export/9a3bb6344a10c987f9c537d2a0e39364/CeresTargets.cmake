@@ -60,8 +60,8 @@ add_library(Ceres::ceres STATIC IMPORTED)
 
 set_target_properties(Ceres::ceres PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;/usr/include"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libglog.so;gflags;\$<LINK_ONLY:Threads::Threads>;\$<LINK_ONLY:SuiteSparse::CHOLMOD>;\$<LINK_ONLY:SuiteSparse::SPQR>;/usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libblas.so;/usr/lib/x86_64-linux-gnu/libf77blas.so;/usr/lib/x86_64-linux-gnu/libatlas.so;Eigen3::Eigen"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
+  INTERFACE_LINK_LIBRARIES "glog::glog;gflags;\$<LINK_ONLY:Threads::Threads>;\$<LINK_ONLY:SuiteSparse::CHOLMOD>;\$<LINK_ONLY:SuiteSparse::SPQR>;/usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libblas.so;/usr/lib/x86_64-linux-gnu/libf77blas.so;/usr/lib/x86_64-linux-gnu/libatlas.so;Eigen3::Eigen"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

@@ -93,7 +93,7 @@ sampled_function_EXTERNAL_OBJECTS =
 bin/sampled_function: examples/sampled_function/CMakeFiles/sampled_function.dir/sampled_function.cc.o
 bin/sampled_function: examples/sampled_function/CMakeFiles/sampled_function.dir/build.make
 bin/sampled_function: lib/libceres.a
-bin/sampled_function: /usr/lib/x86_64-linux-gnu/libglog.so
+bin/sampled_function: /usr/local/lib/libglog.so.0.7.0
 bin/sampled_function: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/sampled_function: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/sampled_function: /usr/lib/x86_64-linux-gnu/libcholmod.so

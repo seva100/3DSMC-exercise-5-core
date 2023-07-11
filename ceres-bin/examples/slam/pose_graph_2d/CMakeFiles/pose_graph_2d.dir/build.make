@@ -93,8 +93,8 @@ pose_graph_2d_EXTERNAL_OBJECTS =
 bin/pose_graph_2d: examples/slam/pose_graph_2d/CMakeFiles/pose_graph_2d.dir/pose_graph_2d.cc.o
 bin/pose_graph_2d: examples/slam/pose_graph_2d/CMakeFiles/pose_graph_2d.dir/build.make
 bin/pose_graph_2d: lib/libceres.a
+bin/pose_graph_2d: /usr/local/lib/libglog.so.0.7.0
 bin/pose_graph_2d: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-bin/pose_graph_2d: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/pose_graph_2d: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/pose_graph_2d: /usr/lib/x86_64-linux-gnu/libcholmod.so
 bin/pose_graph_2d: /usr/lib/x86_64-linux-gnu/libamd.so

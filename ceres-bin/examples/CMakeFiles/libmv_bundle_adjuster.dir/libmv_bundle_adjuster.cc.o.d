@@ -352,10 +352,14 @@ examples/CMakeFiles/libmv_bundle_adjuster.dir/libmv_bundle_adjuster.cc.o: \
  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/internal/memory.h \
- /usr/include/glog/logging.h /usr/include/inttypes.h \
+ /usr/local/include/glog/logging.h /usr/include/c++/9/chrono \
+ /usr/include/c++/9/ratio /usr/include/c++/9/ctime \
+ /usr/include/c++/9/bits/parse_numbers.h \
+ /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
- /usr/include/gflags/gflags_gflags.h /usr/include/glog/log_severity.h \
- /usr/include/glog/vlog_is_on.h \
+ /usr/include/gflags/gflags_gflags.h /usr/include/c++/9/atomic \
+ /usr/local/include/glog/log_severity.h \
+ /usr/local/include/glog/vlog_is_on.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/types.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/internal/disable_warnings.h \
  /workspaces/3DSMC-exercise-5-core/ceres-bin/include/ceres/internal/export.h \

@@ -109,8 +109,8 @@ bin/denoising: examples/CMakeFiles/denoising.dir/denoising.cc.o
 bin/denoising: examples/CMakeFiles/denoising.dir/fields_of_experts.cc.o
 bin/denoising: examples/CMakeFiles/denoising.dir/build.make
 bin/denoising: lib/libceres.a
+bin/denoising: /usr/local/lib/libglog.so.0.7.0
 bin/denoising: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-bin/denoising: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/denoising: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/denoising: /usr/lib/x86_64-linux-gnu/libcholmod.so
 bin/denoising: /usr/lib/x86_64-linux-gnu/libamd.so

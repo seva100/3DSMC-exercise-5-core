@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/workspaces/3DSMC-exercise-5-core/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -D_DISABLE_EXTENDED_ALIGNED_STORAGE -I/workspaces/3DSMC-exercise-5-core/../Libs/Flann-1.8.4 -isystem /usr/include/eigen3 -g -std=gnu++17 -o CMakeFiles/exercise_5.dir/main.cpp.o -c /workspaces/3DSMC-exercise-5-core/main.cpp",
+  "file": "/workspaces/3DSMC-exercise-5-core/main.cpp",
+  "output": "CMakeFiles/exercise_5.dir/main.cpp.o"
+},
+{
+  "directory": "/workspaces/3DSMC-exercise-5-core/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -D_DISABLE_EXTENDED_ALIGNED_STORAGE -I/workspaces/3DSMC-exercise-5-core/../Libs/Flann-1.8.4 -isystem /usr/include/eigen3 -g -std=gnu++17 -o CMakeFiles/exercise_5.dir/FreeImageHelper.cpp.o -c /workspaces/3DSMC-exercise-5-core/FreeImageHelper.cpp",
+  "file": "/workspaces/3DSMC-exercise-5-core/FreeImageHelper.cpp",
+  "output": "CMakeFiles/exercise_5.dir/FreeImageHelper.cpp.o"
+}
+]

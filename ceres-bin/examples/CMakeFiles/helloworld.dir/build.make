@@ -93,7 +93,7 @@ helloworld_EXTERNAL_OBJECTS =
 bin/helloworld: examples/CMakeFiles/helloworld.dir/helloworld.cc.o
 bin/helloworld: examples/CMakeFiles/helloworld.dir/build.make
 bin/helloworld: lib/libceres.a
-bin/helloworld: /usr/lib/x86_64-linux-gnu/libglog.so
+bin/helloworld: /usr/local/lib/libglog.so.0.7.0
 bin/helloworld: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/helloworld: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/helloworld: /usr/lib/x86_64-linux-gnu/libcholmod.so

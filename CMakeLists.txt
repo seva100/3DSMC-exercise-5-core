@@ -11,6 +11,16 @@ set(glog_DIR ${LIBRARY_DIR}/glog-lib/lib/cmake/glog CACHE PATH "Path to installe
 set(Ceres_DIR ${LIBRARY_DIR}/Ceres/CMake CACHE PATH "Path to installed Ceres")
 set(Flann_INCLUDE_DIR ${LIBRARY_DIR}/Flann-1.8.4/ CACHE PATH "Path to Flann source folder")
 
+message(STATUS "Finding LZ4 libraries")
+find_library(LZ4_LIBRARIES NAMES liblz4.so HINTS "lz4/lib")
+if(LZ4_LIBRARIES)
+    message(STATUS "Found: ${LZ4_LIBRARIES}")
+else()
+    message(STATUS "Not found: ${LZ4_LIBRARIES}")
+    message(FATAL_ERROR "Cannot find required LZ4 libraries")
+endif()
+
+
 # Use pre-compiled libraries on Windows
 if(WIN32)
     if(CMAKE_SIZEOF_VOID_P EQUAL 8)
@@ -50,7 +60,7 @@ set(SOURCE_FILES
 
 link_directories(${FreeImage_LIBRARY_DIR})
 add_executable(exercise_5 main.cpp ${HEADER_FILES} ${SOURCE_FILES})
-target_link_libraries(exercise_5 ceres freeimage Eigen3::Eigen)
+target_link_libraries(exercise_5 ceres freeimage Eigen3::Eigen lz4)
 target_include_directories(exercise_5 PUBLIC ${EIGEN3_INCLUDE_DIR} ${FreeImage_INCLUDE_DIR} ${Flann_INCLUDE_DIR})
 
 # On Windows copy dll to executable folder

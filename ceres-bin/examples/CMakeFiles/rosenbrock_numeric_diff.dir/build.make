@@ -93,7 +93,7 @@ rosenbrock_numeric_diff_EXTERNAL_OBJECTS =
 bin/rosenbrock_numeric_diff: examples/CMakeFiles/rosenbrock_numeric_diff.dir/rosenbrock_numeric_diff.cc.o
 bin/rosenbrock_numeric_diff: examples/CMakeFiles/rosenbrock_numeric_diff.dir/build.make
 bin/rosenbrock_numeric_diff: lib/libceres.a
-bin/rosenbrock_numeric_diff: /usr/lib/x86_64-linux-gnu/libglog.so
+bin/rosenbrock_numeric_diff: /usr/local/lib/libglog.so.0.7.0
 bin/rosenbrock_numeric_diff: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/rosenbrock_numeric_diff: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/rosenbrock_numeric_diff: /usr/lib/x86_64-linux-gnu/libcholmod.so

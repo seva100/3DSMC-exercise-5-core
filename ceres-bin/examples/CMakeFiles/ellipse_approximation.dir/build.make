@@ -93,7 +93,7 @@ ellipse_approximation_EXTERNAL_OBJECTS =
 bin/ellipse_approximation: examples/CMakeFiles/ellipse_approximation.dir/ellipse_approximation.cc.o
 bin/ellipse_approximation: examples/CMakeFiles/ellipse_approximation.dir/build.make
 bin/ellipse_approximation: lib/libceres.a
-bin/ellipse_approximation: /usr/lib/x86_64-linux-gnu/libglog.so
+bin/ellipse_approximation: /usr/local/lib/libglog.so.0.7.0
 bin/ellipse_approximation: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/ellipse_approximation: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/ellipse_approximation: /usr/lib/x86_64-linux-gnu/libcholmod.so

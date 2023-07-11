@@ -93,8 +93,8 @@ more_garbow_hillstrom_EXTERNAL_OBJECTS =
 bin/more_garbow_hillstrom: examples/CMakeFiles/more_garbow_hillstrom.dir/more_garbow_hillstrom.cc.o
 bin/more_garbow_hillstrom: examples/CMakeFiles/more_garbow_hillstrom.dir/build.make
 bin/more_garbow_hillstrom: lib/libceres.a
+bin/more_garbow_hillstrom: /usr/local/lib/libglog.so.0.7.0
 bin/more_garbow_hillstrom: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-bin/more_garbow_hillstrom: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/more_garbow_hillstrom: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/more_garbow_hillstrom: /usr/lib/x86_64-linux-gnu/libcholmod.so
 bin/more_garbow_hillstrom: /usr/lib/x86_64-linux-gnu/libamd.so

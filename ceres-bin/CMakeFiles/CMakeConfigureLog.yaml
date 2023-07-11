@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8TVuEx"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8TVuEx"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1llWOH"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1llWOH"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,12 +71,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8TVuEx
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1llWOH
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eb6b6/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb6b6.dir/build.make CMakeFiles/cmTC_eb6b6.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8TVuEx'
-        Building C object CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o -c /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7cc8b/fast && /usr/bin/make  -f CMakeFiles/cmTC_7cc8b.dir/build.make CMakeFiles/cmTC_7cc8b.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1llWOH'
+        Building C object CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o -c /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -85,8 +85,8 @@ events:
         Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
         Thread model: posix
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc3J6aN5.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccdopCko.s
         GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
         
@@ -106,15 +106,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-         as -v --64 -o CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o /tmp/cc3J6aN5.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o /tmp/ccdopCko.s
         GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-        Linking C executable cmTC_eb6b6
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb6b6.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o -o cmTC_eb6b6 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_7cc8b
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cc8b.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o -o cmTC_7cc8b 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -126,10 +126,10 @@ events:
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb6b6' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWDEX4w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_eb6b6 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb6b6' '-mtune=generic' '-march=x86-64'
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8TVuEx'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cc8b' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqxC0QQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7cc8b /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cc8b' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1llWOH'
         
       exitCode: 0
   -
@@ -163,12 +163,12 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8TVuEx]
+        ignore line: [Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1llWOH]
         ignore line: []
-        ignore line: [Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eb6b6/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb6b6.dir/build.make CMakeFiles/cmTC_eb6b6.dir/build]
-        ignore line: [make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8TVuEx']
-        ignore line: [Building C object CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o -c /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7cc8b/fast && /usr/bin/make  -f CMakeFiles/cmTC_7cc8b.dir/build.make CMakeFiles/cmTC_7cc8b.dir/build]
+        ignore line: [make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1llWOH']
+        ignore line: [Building C object CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o -c /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -177,8 +177,8 @@ events:
         ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc3J6aN5.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccdopCko.s]
         ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
         ignore line: []
@@ -198,15 +198,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o /tmp/cc3J6aN5.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o /tmp/ccdopCko.s]
         ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking C executable cmTC_eb6b6]
-        ignore line: [/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb6b6.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o -o cmTC_eb6b6 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_7cc8b]
+        ignore line: [/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cc8b.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o -o cmTC_7cc8b ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -218,13 +218,13 @@ events:
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb6b6' '-mtune=generic' '-march=x86-64']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWDEX4w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_eb6b6 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cc8b' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqxC0QQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7cc8b /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccWDEX4w.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccqxC0QQ.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -242,7 +242,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_eb6b6] ==> ignore
+          arg [cmTC_7cc8b] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
@@ -254,7 +254,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-          arg [CMakeFiles/cmTC_eb6b6.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_7cc8b.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -294,8 +294,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-u0odEy"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-u0odEy"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SmctGI"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SmctGI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -304,12 +304,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-u0odEy
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SmctGI
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_52552/fast && /usr/bin/make  -f CMakeFiles/cmTC_52552.dir/build.make CMakeFiles/cmTC_52552.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-u0odEy'
-        Building CXX object CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o -c /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4c055/fast && /usr/bin/make  -f CMakeFiles/cmTC_4c055.dir/build.make CMakeFiles/cmTC_4c055.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SmctGI'
+        Building CXX object CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o -c /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -318,8 +318,8 @@ events:
         Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
         Thread model: posix
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cch1lwma.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2FLeux.s
         GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
         
@@ -343,15 +343,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         as -v --64 -o CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o /tmp/cch1lwma.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2FLeux.s
         GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        Linking CXX executable cmTC_52552
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52552.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_52552 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_4c055
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c055.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4c055 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -363,10 +363,10 @@ events:
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52552' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccI2kn1E.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_52552 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52552' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-u0odEy'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c055' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8TpVZ0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4c055 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c055' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SmctGI'
         
       exitCode: 0
   -
@@ -406,12 +406,12 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-u0odEy]
+        ignore line: [Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SmctGI]
         ignore line: []
-        ignore line: [Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_52552/fast && /usr/bin/make  -f CMakeFiles/cmTC_52552.dir/build.make CMakeFiles/cmTC_52552.dir/build]
-        ignore line: [make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-u0odEy']
-        ignore line: [Building CXX object CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o -c /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4c055/fast && /usr/bin/make  -f CMakeFiles/cmTC_4c055.dir/build.make CMakeFiles/cmTC_4c055.dir/build]
+        ignore line: [make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SmctGI']
+        ignore line: [Building CXX object CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o -c /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -420,8 +420,8 @@ events:
         ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cch1lwma.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2FLeux.s]
         ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
         ignore line: []
@@ -445,15 +445,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o /tmp/cch1lwma.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2FLeux.s]
         ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking CXX executable cmTC_52552]
-        ignore line: [/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52552.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_52552 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_4c055]
+        ignore line: [/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c055.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4c055 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -465,13 +465,13 @@ events:
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52552' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccI2kn1E.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_52552 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c055' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8TpVZ0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4c055 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccI2kn1E.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc8TpVZ0.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -489,7 +489,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_52552] ==> ignore
+          arg [cmTC_4c055] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
@@ -501,7 +501,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-          arg [CMakeFiles/cmTC_52552.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_4c055.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -538,8 +538,8 @@ events:
     checks:
       - "Performing Test HAVE_BIGOBJ"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SIQp2w"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SIQp2w"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4DW4gI"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4DW4gI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -550,16 +550,16 @@ events:
       variable: "HAVE_BIGOBJ"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SIQp2w
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4DW4gI
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e14df/fast && /usr/bin/make  -f CMakeFiles/cmTC_e14df.dir/build.make CMakeFiles/cmTC_e14df.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SIQp2w'
-        Building CXX object CMakeFiles/cmTC_e14df.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_BIGOBJ  -fPIE   /bigobj -o CMakeFiles/cmTC_e14df.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SIQp2w/src.cxx
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fd8f4/fast && /usr/bin/make  -f CMakeFiles/cmTC_fd8f4.dir/build.make CMakeFiles/cmTC_fd8f4.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4DW4gI'
+        Building CXX object CMakeFiles/cmTC_fd8f4.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_BIGOBJ  -fPIE   /bigobj -o CMakeFiles/cmTC_fd8f4.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4DW4gI/src.cxx
         c++: error: /bigobj: No such file or directory
-        make[1]: *** [CMakeFiles/cmTC_e14df.dir/build.make:78: CMakeFiles/cmTC_e14df.dir/src.cxx.o] Error 1
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SIQp2w'
-        make: *** [Makefile:127: cmTC_e14df/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_fd8f4.dir/build.make:78: CMakeFiles/cmTC_fd8f4.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4DW4gI'
+        make: *** [Makefile:127: cmTC_fd8f4/fast] Error 2
         
       exitCode: 2
   -
@@ -570,8 +570,8 @@ events:
     checks:
       - "Looking for pow in m"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-udi4kz"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-udi4kz"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6DBb2L"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6DBb2L"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -582,23 +582,23 @@ events:
       variable: "HAVE_LIBM"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-udi4kz
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6DBb2L
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3ba55/fast && /usr/bin/make  -f CMakeFiles/cmTC_3ba55.dir/build.make CMakeFiles/cmTC_3ba55.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-udi4kz'
-        Building C object CMakeFiles/cmTC_3ba55.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow -fPIE -o CMakeFiles/cmTC_3ba55.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-udi4kz/CheckFunctionExists.c
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_43aa7/fast && /usr/bin/make  -f CMakeFiles/cmTC_43aa7.dir/build.make CMakeFiles/cmTC_43aa7.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6DBb2L'
+        Building C object CMakeFiles/cmTC_43aa7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow -fPIE -o CMakeFiles/cmTC_43aa7.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6DBb2L/CheckFunctionExists.c
         <command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
-        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-udi4kz/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6DBb2L/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
             7 |   CHECK_FUNCTION_EXISTS(void);
               |   ^~~~~~~~~~~~~~~~~~~~~
-        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-udi4kz/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6DBb2L/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
           +++ |+#include <math.h>
             1 | #ifdef CHECK_FUNCTION_EXISTS
-        Linking C executable cmTC_3ba55
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ba55.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pow CMakeFiles/cmTC_3ba55.dir/CheckFunctionExists.c.o -o cmTC_3ba55  -lm 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-udi4kz'
+        Linking C executable cmTC_43aa7
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43aa7.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pow CMakeFiles/cmTC_43aa7.dir/CheckFunctionExists.c.o -o cmTC_43aa7  -lm 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6DBb2L'
         
       exitCode: 0
   -
@@ -611,8 +611,8 @@ events:
       - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
       - "CMakeLists.txt:283 (find_package)"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-l7AGZx"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-l7AGZx"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-fKwzaJ"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-fKwzaJ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -623,21 +623,21 @@ events:
       variable: "BLAS_WORKS"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-l7AGZx
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-fKwzaJ
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1855a/fast && /usr/bin/make  -f CMakeFiles/cmTC_1855a.dir/build.make CMakeFiles/cmTC_1855a.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-l7AGZx'
-        Building C object CMakeFiles/cmTC_1855a.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fPIE -o CMakeFiles/cmTC_1855a.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-l7AGZx/CheckFunctionExists.c
-        Linking C executable cmTC_1855a
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1855a.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_1855a.dir/CheckFunctionExists.c.o -o cmTC_1855a 
-        /usr/bin/ld: CMakeFiles/cmTC_1855a.dir/CheckFunctionExists.c.o: in function `main':
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7818c/fast && /usr/bin/make  -f CMakeFiles/cmTC_7818c.dir/build.make CMakeFiles/cmTC_7818c.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-fKwzaJ'
+        Building C object CMakeFiles/cmTC_7818c.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fPIE -o CMakeFiles/cmTC_7818c.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-fKwzaJ/CheckFunctionExists.c
+        Linking C executable cmTC_7818c
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7818c.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_7818c.dir/CheckFunctionExists.c.o -o cmTC_7818c 
+        /usr/bin/ld: CMakeFiles/cmTC_7818c.dir/CheckFunctionExists.c.o: in function `main':
         CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
         collect2: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_1855a.dir/build.make:99: cmTC_1855a] Error 1
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-l7AGZx'
-        make: *** [Makefile:127: cmTC_1855a/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_7818c.dir/build.make:99: cmTC_7818c] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-fKwzaJ'
+        make: *** [Makefile:127: cmTC_7818c/fast] Error 2
         
       exitCode: 2
   -
@@ -654,8 +654,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-94oK1w"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-94oK1w"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-F5UXpK"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-F5UXpK"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -666,24 +666,24 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-94oK1w
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-F5UXpK
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bcffc/fast && /usr/bin/make  -f CMakeFiles/cmTC_bcffc.dir/build.make CMakeFiles/cmTC_bcffc.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-94oK1w'
-        Building C object CMakeFiles/cmTC_bcffc.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_bcffc.dir/src.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-94oK1w/src.c
-        Linking C executable cmTC_bcffc
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcffc.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_bcffc.dir/src.c.o -o cmTC_bcffc 
-        /usr/bin/ld: CMakeFiles/cmTC_bcffc.dir/src.c.o: in function `main':
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_55407/fast && /usr/bin/make  -f CMakeFiles/cmTC_55407.dir/build.make CMakeFiles/cmTC_55407.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-F5UXpK'
+        Building C object CMakeFiles/cmTC_55407.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_55407.dir/src.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-F5UXpK/src.c
+        Linking C executable cmTC_55407
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55407.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_55407.dir/src.c.o -o cmTC_55407 
+        /usr/bin/ld: CMakeFiles/cmTC_55407.dir/src.c.o: in function `main':
         src.c:(.text+0x46): undefined reference to `pthread_create'
         /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
         /usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
         /usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
         collect2: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_bcffc.dir/build.make:99: cmTC_bcffc] Error 1
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-94oK1w'
-        make: *** [Makefile:127: cmTC_bcffc/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_55407.dir/build.make:99: cmTC_55407] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-F5UXpK'
+        make: *** [Makefile:127: cmTC_55407/fast] Error 2
         
       exitCode: 2
   -
@@ -699,8 +699,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-p7aUSy"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-p7aUSy"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-GLLJoJ"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-GLLJoJ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -711,20 +711,20 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-p7aUSy
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-GLLJoJ
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_04dd5/fast && /usr/bin/make  -f CMakeFiles/cmTC_04dd5.dir/build.make CMakeFiles/cmTC_04dd5.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-p7aUSy'
-        Building C object CMakeFiles/cmTC_04dd5.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_04dd5.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-p7aUSy/CheckFunctionExists.c
-        Linking C executable cmTC_04dd5
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04dd5.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_04dd5.dir/CheckFunctionExists.c.o -o cmTC_04dd5  -lpthreads 
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_931ec/fast && /usr/bin/make  -f CMakeFiles/cmTC_931ec.dir/build.make CMakeFiles/cmTC_931ec.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-GLLJoJ'
+        Building C object CMakeFiles/cmTC_931ec.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_931ec.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-GLLJoJ/CheckFunctionExists.c
+        Linking C executable cmTC_931ec
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_931ec.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_931ec.dir/CheckFunctionExists.c.o -o cmTC_931ec  -lpthreads 
         /usr/bin/ld: cannot find -lpthreads
         collect2: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_04dd5.dir/build.make:99: cmTC_04dd5] Error 1
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-p7aUSy'
-        make: *** [Makefile:127: cmTC_04dd5/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_931ec.dir/build.make:99: cmTC_931ec] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-GLLJoJ'
+        make: *** [Makefile:127: cmTC_931ec/fast] Error 2
         
       exitCode: 2
   -
@@ -740,8 +740,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ayA6lx"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ayA6lx"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zUnXRL"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zUnXRL"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -752,16 +752,16 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ayA6lx
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zUnXRL
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2a506/fast && /usr/bin/make  -f CMakeFiles/cmTC_2a506.dir/build.make CMakeFiles/cmTC_2a506.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ayA6lx'
-        Building C object CMakeFiles/cmTC_2a506.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_2a506.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ayA6lx/CheckFunctionExists.c
-        Linking C executable cmTC_2a506
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a506.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_2a506.dir/CheckFunctionExists.c.o -o cmTC_2a506  -lpthread 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ayA6lx'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b01e3/fast && /usr/bin/make  -f CMakeFiles/cmTC_b01e3.dir/build.make CMakeFiles/cmTC_b01e3.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zUnXRL'
+        Building C object CMakeFiles/cmTC_b01e3.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_b01e3.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zUnXRL/CheckFunctionExists.c
+        Linking C executable cmTC_b01e3
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b01e3.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_b01e3.dir/CheckFunctionExists.c.o -o cmTC_b01e3  -lpthread 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zUnXRL'
         
       exitCode: 0
   -
@@ -774,8 +774,8 @@ events:
       - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
       - "CMakeLists.txt:283 (find_package)"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6J2gGz"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6J2gGz"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ITplbI"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ITplbI"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -786,16 +786,16 @@ events:
       variable: "BLAS_blas_f77blas_atlas_WORKS"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6J2gGz
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ITplbI
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_03802/fast && /usr/bin/make  -f CMakeFiles/cmTC_03802.dir/build.make CMakeFiles/cmTC_03802.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6J2gGz'
-        Building C object CMakeFiles/cmTC_03802.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dgemm_ -fPIE -o CMakeFiles/cmTC_03802.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6J2gGz/CheckFunctionExists.c
-        Linking C executable cmTC_03802
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03802.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_ CMakeFiles/cmTC_03802.dir/CheckFunctionExists.c.o -o cmTC_03802  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6J2gGz'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f303d/fast && /usr/bin/make  -f CMakeFiles/cmTC_f303d.dir/build.make CMakeFiles/cmTC_f303d.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ITplbI'
+        Building C object CMakeFiles/cmTC_f303d.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dgemm_ -fPIE -o CMakeFiles/cmTC_f303d.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ITplbI/CheckFunctionExists.c
+        Linking C executable cmTC_f303d
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f303d.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_ CMakeFiles/cmTC_f303d.dir/CheckFunctionExists.c.o -o cmTC_f303d  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ITplbI'
         
       exitCode: 0
   -
@@ -806,8 +806,8 @@ events:
       - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:395 (check_lapack_libraries)"
       - "CMakeLists.txt:283 (find_package)"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-W092aw"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-W092aw"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dLUgzL"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dLUgzL"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -818,21 +818,21 @@ events:
       variable: "LAPACK_WORKS"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-W092aw
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dLUgzL
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_09e3f/fast && /usr/bin/make  -f CMakeFiles/cmTC_09e3f.dir/build.make CMakeFiles/cmTC_09e3f.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-W092aw'
-        Building C object CMakeFiles/cmTC_09e3f.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -fPIE -o CMakeFiles/cmTC_09e3f.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-W092aw/CheckFunctionExists.c
-        Linking C executable cmTC_09e3f
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09e3f.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_09e3f.dir/CheckFunctionExists.c.o -o cmTC_09e3f  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -lpthread -lm -ldl 
-        /usr/bin/ld: CMakeFiles/cmTC_09e3f.dir/CheckFunctionExists.c.o: in function `main':
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_06c7c/fast && /usr/bin/make  -f CMakeFiles/cmTC_06c7c.dir/build.make CMakeFiles/cmTC_06c7c.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dLUgzL'
+        Building C object CMakeFiles/cmTC_06c7c.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -fPIE -o CMakeFiles/cmTC_06c7c.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dLUgzL/CheckFunctionExists.c
+        Linking C executable cmTC_06c7c
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06c7c.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_06c7c.dir/CheckFunctionExists.c.o -o cmTC_06c7c  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -lpthread -lm -ldl 
+        /usr/bin/ld: CMakeFiles/cmTC_06c7c.dir/CheckFunctionExists.c.o: in function `main':
         CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
         collect2: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_09e3f.dir/build.make:102: cmTC_09e3f] Error 1
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-W092aw'
-        make: *** [Makefile:127: cmTC_09e3f/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_06c7c.dir/build.make:102: cmTC_06c7c] Error 1
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dLUgzL'
+        make: *** [Makefile:127: cmTC_06c7c/fast] Error 2
         
       exitCode: 2
   -
@@ -843,8 +843,8 @@ events:
       - "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:681 (check_lapack_libraries)"
       - "CMakeLists.txt:283 (find_package)"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zyCwlz"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zyCwlz"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-au3yoJ"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-au3yoJ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -855,16 +855,16 @@ events:
       variable: "LAPACK_lapack_WORKS"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zyCwlz
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-au3yoJ
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2dcc7/fast && /usr/bin/make  -f CMakeFiles/cmTC_2dcc7.dir/build.make CMakeFiles/cmTC_2dcc7.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zyCwlz'
-        Building C object CMakeFiles/cmTC_2dcc7.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -fPIE -o CMakeFiles/cmTC_2dcc7.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zyCwlz/CheckFunctionExists.c
-        Linking C executable cmTC_2dcc7
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dcc7.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_2dcc7.dir/CheckFunctionExists.c.o -o cmTC_2dcc7  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zyCwlz'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_987e9/fast && /usr/bin/make  -f CMakeFiles/cmTC_987e9.dir/build.make CMakeFiles/cmTC_987e9.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-au3yoJ'
+        Building C object CMakeFiles/cmTC_987e9.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -fPIE -o CMakeFiles/cmTC_987e9.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-au3yoJ/CheckFunctionExists.c
+        Linking C executable cmTC_987e9
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_987e9.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_987e9.dir/CheckFunctionExists.c.o -o cmTC_987e9  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-au3yoJ'
         
       exitCode: 0
   -
@@ -876,8 +876,8 @@ events:
     checks:
       - "Looking for shm_open in rt"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IOQY2v"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IOQY2v"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dUUGOL"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dUUGOL"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -888,16 +888,16 @@ events:
       variable: "HAVE_LIBRT"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IOQY2v
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dUUGOL
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bb1e8/fast && /usr/bin/make  -f CMakeFiles/cmTC_bb1e8.dir/build.make CMakeFiles/cmTC_bb1e8.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IOQY2v'
-        Building C object CMakeFiles/cmTC_bb1e8.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -fPIE -o CMakeFiles/cmTC_bb1e8.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IOQY2v/CheckFunctionExists.c
-        Linking C executable cmTC_bb1e8
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb1e8.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_bb1e8.dir/CheckFunctionExists.c.o -o cmTC_bb1e8  -lrt 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IOQY2v'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9703f/fast && /usr/bin/make  -f CMakeFiles/cmTC_9703f.dir/build.make CMakeFiles/cmTC_9703f.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dUUGOL'
+        Building C object CMakeFiles/cmTC_9703f.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -fPIE -o CMakeFiles/cmTC_9703f.dir/CheckFunctionExists.c.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dUUGOL/CheckFunctionExists.c
+        Linking C executable cmTC_9703f
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9703f.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_9703f.dir/CheckFunctionExists.c.o -o cmTC_9703f  -lrt 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-dUUGOL'
         
       exitCode: 0
   -
@@ -911,28 +911,28 @@ events:
     checks:
       - "Performing Test CHECK_CXX_FLAG_Wmissing_declarations"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-sZf1Kv"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-sZf1Kv"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-7EcGMI"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-7EcGMI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake"
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake;/usr/local/lib/cmake/glog/../../../share/glog/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "CHECK_CXX_FLAG_Wmissing_declarations"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-sZf1Kv
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-7EcGMI
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3316d/fast && /usr/bin/make  -f CMakeFiles/cmTC_3316d.dir/build.make CMakeFiles/cmTC_3316d.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-sZf1Kv'
-        Building CXX object CMakeFiles/cmTC_3316d.dir/src.cxx.o
-        /usr/bin/c++ -DCHECK_CXX_FLAG_Wmissing_declarations  -fPIE   -Wmissing-declarations -o CMakeFiles/cmTC_3316d.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-sZf1Kv/src.cxx
-        Linking CXX executable cmTC_3316d
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3316d.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_3316d.dir/src.cxx.o -o cmTC_3316d 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-sZf1Kv'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5afc0/fast && /usr/bin/make  -f CMakeFiles/cmTC_5afc0.dir/build.make CMakeFiles/cmTC_5afc0.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-7EcGMI'
+        Building CXX object CMakeFiles/cmTC_5afc0.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wmissing_declarations  -fPIE   -Wmissing-declarations -o CMakeFiles/cmTC_5afc0.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-7EcGMI/src.cxx
+        Linking CXX executable cmTC_5afc0
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5afc0.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_5afc0.dir/src.cxx.o -o cmTC_5afc0 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-7EcGMI'
         
       exitCode: 0
   -
@@ -946,28 +946,28 @@ events:
     checks:
       - "Performing Test CHECK_CXX_FLAG_Wno_unknown_pragmas"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-xnywqw"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-xnywqw"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Q8DH0L"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Q8DH0L"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake"
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake;/usr/local/lib/cmake/glog/../../../share/glog/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "CHECK_CXX_FLAG_Wno_unknown_pragmas"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-xnywqw
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Q8DH0L
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f6a4/fast && /usr/bin/make  -f CMakeFiles/cmTC_8f6a4.dir/build.make CMakeFiles/cmTC_8f6a4.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-xnywqw'
-        Building CXX object CMakeFiles/cmTC_8f6a4.dir/src.cxx.o
-        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_unknown_pragmas  -fPIE   -Wno-unknown-pragmas -o CMakeFiles/cmTC_8f6a4.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-xnywqw/src.cxx
-        Linking CXX executable cmTC_8f6a4
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f6a4.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_8f6a4.dir/src.cxx.o -o cmTC_8f6a4 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-xnywqw'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_98531/fast && /usr/bin/make  -f CMakeFiles/cmTC_98531.dir/build.make CMakeFiles/cmTC_98531.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Q8DH0L'
+        Building CXX object CMakeFiles/cmTC_98531.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_unknown_pragmas  -fPIE   -Wno-unknown-pragmas -o CMakeFiles/cmTC_98531.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Q8DH0L/src.cxx
+        Linking CXX executable cmTC_98531
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98531.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_98531.dir/src.cxx.o -o cmTC_98531 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Q8DH0L'
         
       exitCode: 0
   -
@@ -981,28 +981,28 @@ events:
     checks:
       - "Performing Test CHECK_CXX_FLAG_Wno_sign_compare"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-JmEDbv"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-JmEDbv"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-AAn8BI"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-AAn8BI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake"
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake;/usr/local/lib/cmake/glog/../../../share/glog/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "CHECK_CXX_FLAG_Wno_sign_compare"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-JmEDbv
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-AAn8BI
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_839eb/fast && /usr/bin/make  -f CMakeFiles/cmTC_839eb.dir/build.make CMakeFiles/cmTC_839eb.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-JmEDbv'
-        Building CXX object CMakeFiles/cmTC_839eb.dir/src.cxx.o
-        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_sign_compare  -fPIE   -Wno-sign-compare -o CMakeFiles/cmTC_839eb.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-JmEDbv/src.cxx
-        Linking CXX executable cmTC_839eb
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_839eb.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_839eb.dir/src.cxx.o -o cmTC_839eb 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-JmEDbv'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bfe7e/fast && /usr/bin/make  -f CMakeFiles/cmTC_bfe7e.dir/build.make CMakeFiles/cmTC_bfe7e.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-AAn8BI'
+        Building CXX object CMakeFiles/cmTC_bfe7e.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_sign_compare  -fPIE   -Wno-sign-compare -o CMakeFiles/cmTC_bfe7e.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-AAn8BI/src.cxx
+        Linking CXX executable cmTC_bfe7e
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfe7e.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_bfe7e.dir/src.cxx.o -o cmTC_bfe7e 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-AAn8BI'
         
       exitCode: 0
   -
@@ -1016,28 +1016,28 @@ events:
     checks:
       - "Performing Test CHECK_CXX_FLAG_Wno_unused_parameter"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6loVfx"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6loVfx"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ndzsKK"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ndzsKK"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake"
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake;/usr/local/lib/cmake/glog/../../../share/glog/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "CHECK_CXX_FLAG_Wno_unused_parameter"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6loVfx
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ndzsKK
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dcadf/fast && /usr/bin/make  -f CMakeFiles/cmTC_dcadf.dir/build.make CMakeFiles/cmTC_dcadf.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6loVfx'
-        Building CXX object CMakeFiles/cmTC_dcadf.dir/src.cxx.o
-        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_unused_parameter  -fPIE   -Wno-unused-parameter -o CMakeFiles/cmTC_dcadf.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6loVfx/src.cxx
-        Linking CXX executable cmTC_dcadf
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcadf.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_dcadf.dir/src.cxx.o -o cmTC_dcadf 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-6loVfx'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_70607/fast && /usr/bin/make  -f CMakeFiles/cmTC_70607.dir/build.make CMakeFiles/cmTC_70607.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ndzsKK'
+        Building CXX object CMakeFiles/cmTC_70607.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_unused_parameter  -fPIE   -Wno-unused-parameter -o CMakeFiles/cmTC_70607.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ndzsKK/src.cxx
+        Linking CXX executable cmTC_70607
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70607.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_70607.dir/src.cxx.o -o cmTC_70607 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ndzsKK'
         
       exitCode: 0
   -
@@ -1051,28 +1051,28 @@ events:
     checks:
       - "Performing Test CHECK_CXX_FLAG_Wno_missing_field_initializers"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-06n5nz"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-06n5nz"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8OKYkM"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8OKYkM"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake"
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake;/usr/local/lib/cmake/glog/../../../share/glog/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "CHECK_CXX_FLAG_Wno_missing_field_initializers"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-06n5nz
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8OKYkM
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_08a50/fast && /usr/bin/make  -f CMakeFiles/cmTC_08a50.dir/build.make CMakeFiles/cmTC_08a50.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-06n5nz'
-        Building CXX object CMakeFiles/cmTC_08a50.dir/src.cxx.o
-        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_missing_field_initializers  -fPIE   -Wno-missing-field-initializers -o CMakeFiles/cmTC_08a50.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-06n5nz/src.cxx
-        Linking CXX executable cmTC_08a50
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08a50.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_08a50.dir/src.cxx.o -o cmTC_08a50 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-06n5nz'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_79532/fast && /usr/bin/make  -f CMakeFiles/cmTC_79532.dir/build.make CMakeFiles/cmTC_79532.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8OKYkM'
+        Building CXX object CMakeFiles/cmTC_79532.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_missing_field_initializers  -fPIE   -Wno-missing-field-initializers -o CMakeFiles/cmTC_79532.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8OKYkM/src.cxx
+        Linking CXX executable cmTC_79532
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79532.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_79532.dir/src.cxx.o -o cmTC_79532 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-8OKYkM'
         
       exitCode: 0
   -
@@ -1085,28 +1085,28 @@ events:
     checks:
       - "Performing Test CHECK_CXX_FLAG_Wno_missing_declarations"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-vHIiQv"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-vHIiQv"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1PMQK"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1PMQK"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake"
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake;/usr/local/lib/cmake/glog/../../../share/glog/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "CHECK_CXX_FLAG_Wno_missing_declarations"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-vHIiQv
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1PMQK
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_461c8/fast && /usr/bin/make  -f CMakeFiles/cmTC_461c8.dir/build.make CMakeFiles/cmTC_461c8.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-vHIiQv'
-        Building CXX object CMakeFiles/cmTC_461c8.dir/src.cxx.o
-        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_missing_declarations  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE   -Wno-missing-declarations -o CMakeFiles/cmTC_461c8.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-vHIiQv/src.cxx
-        Linking CXX executable cmTC_461c8
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_461c8.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_461c8.dir/src.cxx.o -o cmTC_461c8 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-vHIiQv'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cf78c/fast && /usr/bin/make  -f CMakeFiles/cmTC_cf78c.dir/build.make CMakeFiles/cmTC_cf78c.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1PMQK'
+        Building CXX object CMakeFiles/cmTC_cf78c.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_missing_declarations  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE   -Wno-missing-declarations -o CMakeFiles/cmTC_cf78c.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1PMQK/src.cxx
+        Linking CXX executable cmTC_cf78c
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf78c.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_cf78c.dir/src.cxx.o -o cmTC_cf78c 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1PMQK'
         
       exitCode: 0
   -
@@ -1121,28 +1121,28 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-y5eITv"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-y5eITv"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1vHoK"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1vHoK"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake"
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake;/usr/local/lib/cmake/glog/../../../share/glog/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-y5eITv
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1vHoK
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_24263/fast && /usr/bin/make  -f CMakeFiles/cmTC_24263.dir/build.make CMakeFiles/cmTC_24263.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-y5eITv'
-        Building CXX object CMakeFiles/cmTC_24263.dir/src.cxx.o
-        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_24263.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-y5eITv/src.cxx
-        Linking CXX executable cmTC_24263
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24263.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_24263.dir/src.cxx.o -o cmTC_24263 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-y5eITv'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_04e75/fast && /usr/bin/make  -f CMakeFiles/cmTC_04e75.dir/build.make CMakeFiles/cmTC_04e75.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1vHoK'
+        Building CXX object CMakeFiles/cmTC_04e75.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_04e75.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1vHoK/src.cxx
+        Linking CXX executable cmTC_04e75
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04e75.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_04e75.dir/src.cxx.o -o cmTC_04e75 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-j1vHoK'
         
       exitCode: 0
   -
@@ -1157,28 +1157,28 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-VoEq1y"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-VoEq1y"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Hq3HGI"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Hq3HGI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake"
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake;/usr/local/lib/cmake/glog/../../../share/glog/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-VoEq1y
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Hq3HGI
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f2b30/fast && /usr/bin/make  -f CMakeFiles/cmTC_f2b30.dir/build.make CMakeFiles/cmTC_f2b30.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-VoEq1y'
-        Building CXX object CMakeFiles/cmTC_f2b30.dir/src.cxx.o
-        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_f2b30.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-VoEq1y/src.cxx
-        Linking CXX executable cmTC_f2b30
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2b30.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_f2b30.dir/src.cxx.o -o cmTC_f2b30 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-VoEq1y'
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c3d99/fast && /usr/bin/make  -f CMakeFiles/cmTC_c3d99.dir/build.make CMakeFiles/cmTC_c3d99.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Hq3HGI'
+        Building CXX object CMakeFiles/cmTC_c3d99.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_c3d99.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Hq3HGI/src.cxx
+        Linking CXX executable cmTC_c3d99
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3d99.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_c3d99.dir/src.cxx.o -o cmTC_c3d99 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-Hq3HGI'
         
       exitCode: 0
   -
@@ -1193,44 +1193,44 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
     directories:
-      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx"
-      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx"
+      source: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI"
+      binary: "/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake"
+      CMAKE_MODULE_PATH: "/workspaces/3DSMC-exercise-5-core/ceres-solver/cmake;/usr/local/lib/cmake/glog/../../../share/glog/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "COMPILER_HAS_DEPRECATED_ATTR"
       cached: true
       stdout: |
-        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx
+        Change Dir: /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI
         
-        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_567e9/fast && /usr/bin/make  -f CMakeFiles/cmTC_567e9.dir/build.make CMakeFiles/cmTC_567e9.dir/build
-        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx'
-        Building CXX object CMakeFiles/cmTC_567e9.dir/src.cxx.o
-        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE -o CMakeFiles/cmTC_567e9.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx/src.cxx
-        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx/src.cxx:1:37: warning: no previous declaration for ‘int somefunc()’ [-Wmissing-declarations]
+        Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b8fdf/fast && /usr/bin/make  -f CMakeFiles/cmTC_b8fdf.dir/build.make CMakeFiles/cmTC_b8fdf.dir/build
+        make[1]: Entering directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI'
+        Building CXX object CMakeFiles/cmTC_b8fdf.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE -o CMakeFiles/cmTC_b8fdf.dir/src.cxx.o -c /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI/src.cxx
+        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI/src.cxx:1:37: warning: no previous declaration for ‘int somefunc()’ [-Wmissing-declarations]
             1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
               |                                     ^~~~~~~~
-        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx/src.cxx: In function ‘int main()’:
-        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI/src.cxx: In function ‘int main()’:
+        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
             2 |     int main() { return somefunc();}
               |                                  ^
-        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx/src.cxx:1:37: note: declared here
+        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI/src.cxx:1:37: note: declared here
             1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
               |                                     ^~~~~~~~
-        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
             2 |     int main() { return somefunc();}
               |                                  ^
-        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx/src.cxx:1:37: note: declared here
+        /workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI/src.cxx:1:37: note: declared here
             1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
               |                                     ^~~~~~~~
-        Linking CXX executable cmTC_567e9
-        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_567e9.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_567e9.dir/src.cxx.o -o cmTC_567e9 
-        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-i96KDx'
+        Linking CXX executable cmTC_b8fdf
+        /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8fdf.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_b8fdf.dir/src.cxx.o -o cmTC_b8fdf 
+        make[1]: Leaving directory '/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-brWnxI'
         
       exitCode: 0
 ...

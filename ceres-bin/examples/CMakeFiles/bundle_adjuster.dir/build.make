@@ -109,8 +109,8 @@ bin/bundle_adjuster: examples/CMakeFiles/bundle_adjuster.dir/bundle_adjuster.cc.
 bin/bundle_adjuster: examples/CMakeFiles/bundle_adjuster.dir/bal_problem.cc.o
 bin/bundle_adjuster: examples/CMakeFiles/bundle_adjuster.dir/build.make
 bin/bundle_adjuster: lib/libceres.a
+bin/bundle_adjuster: /usr/local/lib/libglog.so.0.7.0
 bin/bundle_adjuster: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-bin/bundle_adjuster: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/bundle_adjuster: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/bundle_adjuster: /usr/lib/x86_64-linux-gnu/libcholmod.so
 bin/bundle_adjuster: /usr/lib/x86_64-linux-gnu/libamd.so

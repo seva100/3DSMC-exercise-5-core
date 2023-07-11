@@ -56,17 +56,14 @@ internal/ceres/CMakeFiles/ceres_internal.dir/block_structure.cc.o: \
  /usr/include/c++/9/bits/range_access.h \
  /usr/include/c++/9/bits/vector.tcc \
  /workspaces/3DSMC-exercise-5-core/ceres-bin/include/ceres/internal/export.h \
- /usr/include/glog/logging.h /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/local/include/glog/logging.h /usr/include/c++/9/cerrno \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/9/chrono /usr/include/c++/9/ratio \
+ /usr/include/c++/9/limits /usr/include/c++/9/ctime /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
@@ -78,11 +75,37 @@ internal/ceres/CMakeFiles/ceres_internal.dir/block_structure.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/c++/9/bits/parse_numbers.h /usr/include/c++/9/cstddef \
+ /usr/include/c++/9/cstdlib /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/include/c++/9/bits/std_abs.h /usr/include/c++/9/cstring \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/c++/9/iosfwd /usr/include/c++/9/bits/stringfwd.h \
  /usr/include/c++/9/bits/postypes.h /usr/include/c++/9/cwchar \
- /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -102,11 +125,6 @@ internal/ceres/CMakeFiles/ceres_internal.dir/block_structure.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
- /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h \
  /usr/include/c++/9/bits/locale_classes.h /usr/include/c++/9/string \
@@ -115,22 +133,8 @@ internal/ceres/CMakeFiles/ceres_internal.dir/block_structure.cc.o: \
  /usr/include/c++/9/bits/stl_function.h \
  /usr/include/c++/9/backward/binders.h \
  /usr/include/c++/9/bits/basic_string.h /usr/include/c++/9/string_view \
- /usr/include/c++/9/limits /usr/include/c++/9/bits/string_view.tcc \
- /usr/include/c++/9/ext/string_conversions.h /usr/include/c++/9/cstdlib \
- /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/select2.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /usr/include/c++/9/bits/std_abs.h /usr/include/c++/9/cstdio \
+ /usr/include/c++/9/bits/string_view.tcc \
+ /usr/include/c++/9/ext/string_conversions.h /usr/include/c++/9/cstdio \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
@@ -138,7 +142,7 @@ internal/ceres/CMakeFiles/ceres_internal.dir/block_structure.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/9/cerrno \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /usr/include/c++/9/bits/basic_string.tcc \
  /usr/include/c++/9/bits/locale_classes.tcc \
  /usr/include/c++/9/system_error \
@@ -162,7 +166,11 @@ internal/ceres/CMakeFiles/ceres_internal.dir/block_structure.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/inttypes.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
- /usr/include/gflags/gflags_gflags.h /usr/include/glog/log_severity.h \
- /usr/include/glog/vlog_is_on.h
+ /usr/include/gflags/gflags_gflags.h /usr/include/c++/9/atomic \
+ /usr/include/c++/9/bits/atomic_base.h \
+ /usr/include/c++/9/bits/atomic_lockfree_defines.h \
+ /usr/local/include/glog/log_severity.h \
+ /usr/local/include/glog/vlog_is_on.h

@@ -405,17 +405,19 @@ internal/ceres/CMakeFiles/dense_qr_test.dir/dense_qr_test.cc.o: \
  /usr/include/c++/9/condition_variable /usr/include/c++/9/queue \
  /usr/include/c++/9/deque /usr/include/c++/9/bits/stl_deque.h \
  /usr/include/c++/9/bits/deque.tcc /usr/include/c++/9/bits/stl_queue.h \
- /usr/include/glog/logging.h /usr/include/unistd.h \
+ /usr/local/include/glog/logging.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/inttypes.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
- /usr/include/gflags/gflags_gflags.h /usr/include/glog/log_severity.h \
- /usr/include/glog/vlog_is_on.h \
+ /usr/include/gflags/gflags_gflags.h /usr/include/c++/9/atomic \
+ /usr/local/include/glog/log_severity.h \
+ /usr/local/include/glog/vlog_is_on.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/internal/reenable_warnings.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/internal/eigen.h \
  /usr/include/eigen3/Eigen/Core \
@@ -491,6 +493,5 @@ internal/ceres/CMakeFiles/dense_qr_test.dir/dense_qr_test.cc.o: \
  /usr/include/c++/9/set /usr/include/c++/9/bits/stl_set.h \
  /usr/include/c++/9/bits/stl_multiset.h /usr/include/c++/9/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/cxxabi_tweaks.h \
- /usr/include/c++/9/atomic /usr/include/c++/9/iterator \
- /usr/include/c++/9/bits/stream_iterator.h \
+ /usr/include/c++/9/iterator /usr/include/c++/9/bits/stream_iterator.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/internal/ceres/gtest/gtest.h

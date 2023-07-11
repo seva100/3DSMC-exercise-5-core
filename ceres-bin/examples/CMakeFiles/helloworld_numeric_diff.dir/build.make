@@ -93,7 +93,7 @@ helloworld_numeric_diff_EXTERNAL_OBJECTS =
 bin/helloworld_numeric_diff: examples/CMakeFiles/helloworld_numeric_diff.dir/helloworld_numeric_diff.cc.o
 bin/helloworld_numeric_diff: examples/CMakeFiles/helloworld_numeric_diff.dir/build.make
 bin/helloworld_numeric_diff: lib/libceres.a
-bin/helloworld_numeric_diff: /usr/lib/x86_64-linux-gnu/libglog.so
+bin/helloworld_numeric_diff: /usr/local/lib/libglog.so.0.7.0
 bin/helloworld_numeric_diff: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/helloworld_numeric_diff: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/helloworld_numeric_diff: /usr/lib/x86_64-linux-gnu/libcholmod.so

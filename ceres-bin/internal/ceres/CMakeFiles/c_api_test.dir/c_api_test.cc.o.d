@@ -88,23 +88,31 @@ internal/ceres/CMakeFiles/c_api_test.dir/c_api_test.cc.o: \
  /usr/include/c++/9/tr1/modified_bessel_func.tcc \
  /usr/include/c++/9/tr1/poly_hermite.tcc \
  /usr/include/c++/9/tr1/poly_laguerre.tcc \
- /usr/include/c++/9/tr1/riemann_zeta.tcc /usr/include/glog/logging.h \
+ /usr/include/c++/9/tr1/riemann_zeta.tcc \
+ /usr/local/include/glog/logging.h /usr/include/c++/9/cerrno \
  /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h /usr/include/string.h \
- /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/9/chrono /usr/include/c++/9/ratio \
+ /usr/include/c++/9/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/c++/9/ctime /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/c++/9/bits/parse_numbers.h /usr/include/c++/9/cstddef \
+ /usr/include/c++/9/cstdlib /usr/include/c++/9/cstring \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/c++/9/iosfwd /usr/include/c++/9/bits/stringfwd.h \
  /usr/include/c++/9/bits/memoryfwd.h /usr/include/c++/9/bits/postypes.h \
  /usr/include/c++/9/cwchar /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -117,9 +125,7 @@ internal/ceres/CMakeFiles/c_api_test.dir/c_api_test.cc.o: \
  /usr/include/c++/9/bits/cxxabi_init_exception.h \
  /usr/include/c++/9/typeinfo /usr/include/c++/9/bits/hash_bytes.h \
  /usr/include/c++/9/new /usr/include/c++/9/bits/nested_exception.h \
- /usr/include/c++/9/bits/char_traits.h /usr/include/c++/9/cstdint \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/c++/9/bits/char_traits.h \
  /usr/include/c++/9/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
  /usr/include/c++/9/clocale /usr/include/locale.h \
@@ -149,16 +155,15 @@ internal/ceres/CMakeFiles/c_api_test.dir/c_api_test.cc.o: \
  /usr/include/c++/9/bits/alloc_traits.h /usr/include/c++/9/string_view \
  /usr/include/c++/9/bits/functional_hash.h \
  /usr/include/c++/9/bits/string_view.tcc \
- /usr/include/c++/9/ext/string_conversions.h /usr/include/c++/9/cstdlib \
- /usr/include/c++/9/cstdio /usr/include/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/c++/9/ext/string_conversions.h /usr/include/c++/9/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/9/cerrno \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /usr/include/c++/9/bits/basic_string.tcc \
  /usr/include/c++/9/bits/locale_classes.tcc \
  /usr/include/c++/9/system_error \
@@ -188,12 +193,15 @@ internal/ceres/CMakeFiles/c_api_test.dir/c_api_test.cc.o: \
  /usr/include/c++/9/bits/stl_relops.h \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /usr/include/inttypes.h /usr/include/gflags/gflags.h \
- /usr/include/gflags/gflags_declare.h /usr/include/gflags/gflags_gflags.h \
- /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h \
+ /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
+ /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
+ /usr/include/gflags/gflags_gflags.h /usr/include/c++/9/atomic \
+ /usr/include/c++/9/bits/atomic_base.h \
+ /usr/include/c++/9/bits/atomic_lockfree_defines.h \
+ /usr/local/include/glog/log_severity.h \
+ /usr/local/include/glog/vlog_is_on.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/internal/ceres/gtest/gtest.h \
- /usr/include/c++/9/cstddef /usr/include/c++/9/memory \
- /usr/include/c++/9/bits/stl_tempbuf.h \
+ /usr/include/c++/9/memory /usr/include/c++/9/bits/stl_tempbuf.h \
  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
  /usr/include/c++/9/ext/concurrence.h \
  /usr/include/c++/9/bits/uses_allocator.h \
@@ -205,8 +213,6 @@ internal/ceres/CMakeFiles/c_api_test.dir/c_api_test.cc.o: \
  /usr/include/c++/9/bits/refwrap.h \
  /usr/include/c++/9/ext/aligned_buffer.h \
  /usr/include/c++/9/bits/shared_ptr_atomic.h \
- /usr/include/c++/9/bits/atomic_base.h \
- /usr/include/c++/9/bits/atomic_lockfree_defines.h \
  /usr/include/c++/9/backward/auto_ptr.h \
  /usr/include/c++/9/pstl/glue_memory_defs.h \
  /usr/include/c++/9/pstl/execution_defs.h /usr/include/c++/9/stdlib.h \
@@ -225,7 +231,7 @@ internal/ceres/CMakeFiles/c_api_test.dir/c_api_test.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
  /usr/include/c++/9/iostream /usr/include/c++/9/locale \
- /usr/include/c++/9/bits/locale_facets_nonio.h /usr/include/c++/9/ctime \
+ /usr/include/c++/9/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/9/bits/codecvt.h \
@@ -233,9 +239,8 @@ internal/ceres/CMakeFiles/c_api_test.dir/c_api_test.cc.o: \
  /usr/include/c++/9/bits/locale_conv.h /usr/include/regex.h \
  /usr/include/c++/9/any /usr/include/c++/9/optional \
  /usr/include/c++/9/bits/enable_special_members.h \
- /usr/include/c++/9/variant /usr/include/c++/9/bits/parse_numbers.h \
- /usr/include/x86_64-linux-gnu/sys/wait.h /usr/include/signal.h \
- /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/c++/9/variant /usr/include/x86_64-linux-gnu/sys/wait.h \
+ /usr/include/signal.h /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
@@ -264,9 +269,8 @@ internal/ceres/CMakeFiles/c_api_test.dir/c_api_test.cc.o: \
  /usr/include/c++/9/bits/stl_set.h /usr/include/c++/9/bits/stl_multiset.h \
  /usr/include/c++/9/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/cxxabi_tweaks.h \
- /usr/include/c++/9/atomic /usr/include/c++/9/functional \
- /usr/include/c++/9/bits/std_function.h /usr/include/c++/9/unordered_map \
- /usr/include/c++/9/bits/hashtable.h \
+ /usr/include/c++/9/functional /usr/include/c++/9/bits/std_function.h \
+ /usr/include/c++/9/unordered_map /usr/include/c++/9/bits/hashtable.h \
  /usr/include/c++/9/bits/hashtable_policy.h \
  /usr/include/c++/9/bits/unordered_map.h \
  /usr/include/c++/9/bits/stl_algo.h \

@@ -93,8 +93,8 @@ circle_fit_EXTERNAL_OBJECTS =
 bin/circle_fit: examples/CMakeFiles/circle_fit.dir/circle_fit.cc.o
 bin/circle_fit: examples/CMakeFiles/circle_fit.dir/build.make
 bin/circle_fit: lib/libceres.a
+bin/circle_fit: /usr/local/lib/libglog.so.0.7.0
 bin/circle_fit: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-bin/circle_fit: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/circle_fit: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/circle_fit: /usr/lib/x86_64-linux-gnu/libcholmod.so
 bin/circle_fit: /usr/lib/x86_64-linux-gnu/libamd.so

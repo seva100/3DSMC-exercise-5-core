@@ -93,8 +93,8 @@ libmv_bundle_adjuster_EXTERNAL_OBJECTS =
 bin/libmv_bundle_adjuster: examples/CMakeFiles/libmv_bundle_adjuster.dir/libmv_bundle_adjuster.cc.o
 bin/libmv_bundle_adjuster: examples/CMakeFiles/libmv_bundle_adjuster.dir/build.make
 bin/libmv_bundle_adjuster: lib/libceres.a
+bin/libmv_bundle_adjuster: /usr/local/lib/libglog.so.0.7.0
 bin/libmv_bundle_adjuster: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-bin/libmv_bundle_adjuster: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/libmv_bundle_adjuster: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/libmv_bundle_adjuster: /usr/lib/x86_64-linux-gnu/libcholmod.so
 bin/libmv_bundle_adjuster: /usr/lib/x86_64-linux-gnu/libamd.so

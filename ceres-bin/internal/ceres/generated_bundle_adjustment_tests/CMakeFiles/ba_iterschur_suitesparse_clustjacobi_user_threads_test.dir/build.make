@@ -111,11 +111,11 @@ bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: /usr/lib/x86_64-linu
 bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: /usr/lib/x86_64-linux-gnu/libccolamd.so
 bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: /usr/lib/x86_64-linux-gnu/libcolamd.so
 bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
-bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: /usr/lib/x86_64-linux-gnu/liblapack.so
 bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: /usr/lib/x86_64-linux-gnu/libblas.so
 bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: /usr/lib/x86_64-linux-gnu/libf77blas.so
 bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: /usr/lib/x86_64-linux-gnu/libatlas.so
+bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: /usr/local/lib/libglog.so.0.7.0
 bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test: internal/ceres/generated_bundle_adjustment_tests/CMakeFiles/ba_iterschur_suitesparse_clustjacobi_user_threads_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test"

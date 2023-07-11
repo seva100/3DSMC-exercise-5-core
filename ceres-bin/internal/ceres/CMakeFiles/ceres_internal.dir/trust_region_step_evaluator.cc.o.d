@@ -150,8 +150,11 @@ internal/ceres/CMakeFiles/ceres_internal.dir/trust_region_step_evaluator.cc.o: \
  /usr/include/c++/9/bits/stl_uninitialized.h \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /usr/include/c++/9/pstl/execution_defs.h /usr/include/glog/logging.h \
- /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/9/pstl/execution_defs.h \
+ /usr/local/include/glog/logging.h /usr/include/c++/9/chrono \
+ /usr/include/c++/9/ratio /usr/include/c++/9/ctime \
+ /usr/include/c++/9/bits/parse_numbers.h /usr/include/c++/9/cstddef \
+ /usr/include/c++/9/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/c++/9/ostream /usr/include/c++/9/ios \
@@ -178,7 +181,11 @@ internal/ceres/CMakeFiles/ceres_internal.dir/trust_region_step_evaluator.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/inttypes.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
- /usr/include/gflags/gflags_gflags.h /usr/include/glog/log_severity.h \
- /usr/include/glog/vlog_is_on.h
+ /usr/include/gflags/gflags_gflags.h /usr/include/c++/9/atomic \
+ /usr/include/c++/9/bits/atomic_base.h \
+ /usr/include/c++/9/bits/atomic_lockfree_defines.h \
+ /usr/local/include/glog/log_severity.h \
+ /usr/local/include/glog/vlog_is_on.h

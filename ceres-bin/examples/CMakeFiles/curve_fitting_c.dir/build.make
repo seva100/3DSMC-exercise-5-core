@@ -93,7 +93,7 @@ curve_fitting_c_EXTERNAL_OBJECTS =
 bin/curve_fitting_c: examples/CMakeFiles/curve_fitting_c.dir/curve_fitting.c.o
 bin/curve_fitting_c: examples/CMakeFiles/curve_fitting_c.dir/build.make
 bin/curve_fitting_c: lib/libceres.a
-bin/curve_fitting_c: /usr/lib/x86_64-linux-gnu/libglog.so
+bin/curve_fitting_c: /usr/local/lib/libglog.so.0.7.0
 bin/curve_fitting_c: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/curve_fitting_c: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/curve_fitting_c: /usr/lib/x86_64-linux-gnu/libcholmod.so

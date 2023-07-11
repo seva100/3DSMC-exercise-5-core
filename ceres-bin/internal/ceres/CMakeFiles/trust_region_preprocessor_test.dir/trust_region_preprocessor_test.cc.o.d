@@ -177,7 +177,8 @@ internal/ceres/CMakeFiles/trust_region_preprocessor_test.dir/trust_region_prepro
  /usr/include/c++/9/condition_variable /usr/include/c++/9/queue \
  /usr/include/c++/9/deque /usr/include/c++/9/bits/stl_deque.h \
  /usr/include/c++/9/bits/deque.tcc /usr/include/c++/9/bits/stl_queue.h \
- /usr/include/glog/logging.h /usr/include/string.h /usr/include/strings.h \
+ /usr/local/include/glog/logging.h /usr/include/c++/9/cstddef \
+ /usr/include/c++/9/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/c++/9/ostream /usr/include/c++/9/ios \
@@ -202,10 +203,12 @@ internal/ceres/CMakeFiles/trust_region_preprocessor_test.dir/trust_region_prepro
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/inttypes.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
- /usr/include/gflags/gflags_gflags.h /usr/include/glog/log_severity.h \
- /usr/include/glog/vlog_is_on.h \
+ /usr/include/gflags/gflags_gflags.h /usr/include/c++/9/atomic \
+ /usr/local/include/glog/log_severity.h \
+ /usr/local/include/glog/vlog_is_on.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/internal/reenable_warnings.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/internal/ceres/evaluator.h \
  /usr/include/c++/9/map /usr/include/c++/9/bits/stl_tree.h \
@@ -247,7 +250,6 @@ internal/ceres/CMakeFiles/trust_region_preprocessor_test.dir/trust_region_prepro
  /usr/include/c++/9/set /usr/include/c++/9/bits/stl_set.h \
  /usr/include/c++/9/bits/stl_multiset.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/problem.h \
- /usr/include/c++/9/cstddef \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/internal/port.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/internal/ceres/problem_impl.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/manifold.h \
@@ -261,8 +263,7 @@ internal/ceres/CMakeFiles/trust_region_preprocessor_test.dir/trust_region_prepro
  /usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h \
  /usr/include/c++/9/stdlib.h /usr/include/c++/9/cassert \
- /usr/include/assert.h /usr/include/c++/9/cstring \
- /usr/include/c++/9/climits \
+ /usr/include/assert.h /usr/include/c++/9/climits \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -452,5 +453,4 @@ internal/ceres/CMakeFiles/trust_region_preprocessor_test.dir/trust_region_prepro
  /usr/include/c++/9/iomanip /usr/include/c++/9/bits/quoted_string.h \
  /usr/include/c++/9/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/cxxabi_tweaks.h \
- /usr/include/c++/9/atomic /usr/include/c++/9/iterator \
- /usr/include/c++/9/bits/stream_iterator.h
+ /usr/include/c++/9/iterator /usr/include/c++/9/bits/stream_iterator.h

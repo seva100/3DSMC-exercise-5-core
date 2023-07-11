@@ -335,14 +335,20 @@ examples/CMakeFiles/bundle_adjuster.dir/bal_problem.cc.o: \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/rotation.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/constants.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/internal/euler_angles.h \
- /usr/include/glog/logging.h /usr/include/unistd.h \
+ /usr/local/include/glog/logging.h /usr/include/c++/9/chrono \
+ /usr/include/c++/9/ratio /usr/include/c++/9/ctime \
+ /usr/include/c++/9/bits/parse_numbers.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/inttypes.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
- /usr/include/gflags/gflags_gflags.h /usr/include/glog/log_severity.h \
- /usr/include/glog/vlog_is_on.h
+ /usr/include/gflags/gflags_gflags.h /usr/include/c++/9/atomic \
+ /usr/include/c++/9/bits/atomic_base.h \
+ /usr/include/c++/9/bits/atomic_lockfree_defines.h \
+ /usr/local/include/glog/log_severity.h \
+ /usr/local/include/glog/vlog_is_on.h

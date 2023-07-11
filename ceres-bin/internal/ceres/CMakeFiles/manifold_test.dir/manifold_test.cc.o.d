@@ -340,17 +340,21 @@ internal/ceres/CMakeFiles/manifold_test.dir/manifold_test.cc.o: \
  /workspaces/3DSMC-exercise-5-core/ceres-bin/include/ceres/internal/export.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/types.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/internal/reenable_warnings.h \
- /usr/include/glog/logging.h /usr/include/unistd.h \
+ /usr/local/include/glog/logging.h /usr/include/c++/9/chrono \
+ /usr/include/c++/9/ratio /usr/include/c++/9/ctime \
+ /usr/include/c++/9/bits/parse_numbers.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/inttypes.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
- /usr/include/gflags/gflags_gflags.h /usr/include/glog/log_severity.h \
- /usr/include/glog/vlog_is_on.h /usr/include/eigen3/Eigen/Geometry \
+ /usr/include/gflags/gflags_gflags.h /usr/include/c++/9/atomic \
+ /usr/local/include/glog/log_severity.h \
+ /usr/local/include/glog/vlog_is_on.h /usr/include/eigen3/Eigen/Geometry \
  /usr/include/eigen3/Eigen/Core /usr/include/eigen3/Eigen/SVD \
  /usr/include/eigen3/Eigen/QR /usr/include/eigen3/Eigen/Cholesky \
  /usr/include/eigen3/Eigen/Jacobi \
@@ -450,14 +454,12 @@ internal/ceres/CMakeFiles/manifold_test.dir/manifold_test.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
  /usr/include/c++/9/locale /usr/include/c++/9/bits/locale_facets_nonio.h \
- /usr/include/c++/9/ctime \
  /usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/9/bits/codecvt.h \
  /usr/include/c++/9/bits/locale_facets_nonio.tcc \
  /usr/include/c++/9/bits/locale_conv.h /usr/include/regex.h \
  /usr/include/c++/9/any /usr/include/c++/9/variant \
- /usr/include/c++/9/bits/parse_numbers.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -486,8 +488,7 @@ internal/ceres/CMakeFiles/manifold_test.dir/manifold_test.cc.o: \
  /usr/include/c++/9/set /usr/include/c++/9/bits/stl_set.h \
  /usr/include/c++/9/bits/stl_multiset.h /usr/include/c++/9/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/cxxabi_tweaks.h \
- /usr/include/c++/9/atomic /usr/include/c++/9/iterator \
- /usr/include/c++/9/bits/stream_iterator.h \
+ /usr/include/c++/9/iterator /usr/include/c++/9/bits/stream_iterator.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/product_manifold.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/rotation.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/constants.h \

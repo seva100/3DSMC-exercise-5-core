@@ -93,8 +93,8 @@ libmv_homography_EXTERNAL_OBJECTS =
 bin/libmv_homography: examples/CMakeFiles/libmv_homography.dir/libmv_homography.cc.o
 bin/libmv_homography: examples/CMakeFiles/libmv_homography.dir/build.make
 bin/libmv_homography: lib/libceres.a
+bin/libmv_homography: /usr/local/lib/libglog.so.0.7.0
 bin/libmv_homography: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-bin/libmv_homography: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/libmv_homography: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/libmv_homography: /usr/lib/x86_64-linux-gnu/libcholmod.so
 bin/libmv_homography: /usr/lib/x86_64-linux-gnu/libamd.so

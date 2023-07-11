@@ -1,0 +1,3 @@
+/workspaces/3DSMC-exercise-5-core/build/CMakeFiles/exercise_5.dir
+/workspaces/3DSMC-exercise-5-core/build/CMakeFiles/edit_cache.dir
+/workspaces/3DSMC-exercise-5-core/build/CMakeFiles/rebuild_cache.dir

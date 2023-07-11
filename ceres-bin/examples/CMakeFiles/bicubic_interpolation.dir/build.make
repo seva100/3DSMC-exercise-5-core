@@ -93,7 +93,7 @@ bicubic_interpolation_EXTERNAL_OBJECTS =
 bin/bicubic_interpolation: examples/CMakeFiles/bicubic_interpolation.dir/bicubic_interpolation.cc.o
 bin/bicubic_interpolation: examples/CMakeFiles/bicubic_interpolation.dir/build.make
 bin/bicubic_interpolation: lib/libceres.a
-bin/bicubic_interpolation: /usr/lib/x86_64-linux-gnu/libglog.so
+bin/bicubic_interpolation: /usr/local/lib/libglog.so.0.7.0
 bin/bicubic_interpolation: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/bicubic_interpolation: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/bicubic_interpolation: /usr/lib/x86_64-linux-gnu/libcholmod.so

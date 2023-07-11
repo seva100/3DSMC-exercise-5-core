@@ -220,8 +220,8 @@ endif (Eigen3_FOUND)
 #
 # Flags set during configuration and build of Ceres.
 set(CERES_USES_MINIGLOG OFF)
-set(CERES_GLOG_VERSION )
-set(CERES_GLOG_WAS_BUILT_WITH_CMAKE 0)
+set(CERES_GLOG_VERSION 0.7.0)
+set(CERES_GLOG_WAS_BUILT_WITH_CMAKE 1)
 
 set(CERES_USES_GFLAGS ON)
 set(CERES_GFLAGS_VERSION 2.2.2)
@@ -239,8 +239,8 @@ else(CERES_USES_MINIGLOG)
     # Version of glog against which Ceres was built was not built with CMake,
     # use the exported glog find_package() module from Ceres to find it again.
     # Append the locations of glog when Ceres was built to the search path hints.
-    list(APPEND GLOG_INCLUDE_DIR_HINTS "/usr/include")
-    get_filename_component(CERES_BUILD_GLOG_LIBRARY_DIR "/usr/lib/x86_64-linux-gnu/libglog.so" PATH)
+    list(APPEND GLOG_INCLUDE_DIR_HINTS "")
+    get_filename_component(CERES_BUILD_GLOG_LIBRARY_DIR "glog::glog" PATH)
     list(APPEND GLOG_LIBRARY_DIR_HINTS ${CERES_BUILD_GLOG_LIBRARY_DIR})
 
     # Search quietly s/t we control the timing of the error message if not found.

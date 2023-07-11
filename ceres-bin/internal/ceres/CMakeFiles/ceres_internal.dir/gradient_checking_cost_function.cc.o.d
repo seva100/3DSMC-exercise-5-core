@@ -343,17 +343,19 @@ internal/ceres/CMakeFiles/ceres_internal.dir/gradient_checking_cost_function.cc.
  /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
- /usr/include/glog/logging.h /usr/include/unistd.h \
+ /usr/local/include/glog/logging.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/inttypes.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
- /usr/include/gflags/gflags_gflags.h /usr/include/glog/log_severity.h \
- /usr/include/glog/vlog_is_on.h /usr/include/c++/9/numeric \
+ /usr/include/gflags/gflags_gflags.h /usr/include/c++/9/atomic \
+ /usr/local/include/glog/log_severity.h \
+ /usr/local/include/glog/vlog_is_on.h /usr/include/c++/9/numeric \
  /usr/include/c++/9/bits/stl_numeric.h \
  /usr/include/c++/9/pstl/glue_numeric_defs.h \
  /workspaces/3DSMC-exercise-5-core/ceres-solver/include/ceres/dynamic_numeric_diff_cost_function.h \

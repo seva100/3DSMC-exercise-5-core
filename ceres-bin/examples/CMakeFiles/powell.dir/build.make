@@ -93,8 +93,8 @@ powell_EXTERNAL_OBJECTS =
 bin/powell: examples/CMakeFiles/powell.dir/powell.cc.o
 bin/powell: examples/CMakeFiles/powell.dir/build.make
 bin/powell: lib/libceres.a
+bin/powell: /usr/local/lib/libglog.so.0.7.0
 bin/powell: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-bin/powell: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/powell: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/powell: /usr/lib/x86_64-linux-gnu/libcholmod.so
 bin/powell: /usr/lib/x86_64-linux-gnu/libamd.so

@@ -93,7 +93,7 @@ robust_curve_fitting_EXTERNAL_OBJECTS =
 bin/robust_curve_fitting: examples/CMakeFiles/robust_curve_fitting.dir/robust_curve_fitting.cc.o
 bin/robust_curve_fitting: examples/CMakeFiles/robust_curve_fitting.dir/build.make
 bin/robust_curve_fitting: lib/libceres.a
-bin/robust_curve_fitting: /usr/lib/x86_64-linux-gnu/libglog.so
+bin/robust_curve_fitting: /usr/local/lib/libglog.so.0.7.0
 bin/robust_curve_fitting: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/robust_curve_fitting: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/robust_curve_fitting: /usr/lib/x86_64-linux-gnu/libcholmod.so

@@ -93,8 +93,8 @@ pose_graph_3d_EXTERNAL_OBJECTS =
 bin/pose_graph_3d: examples/slam/pose_graph_3d/CMakeFiles/pose_graph_3d.dir/pose_graph_3d.cc.o
 bin/pose_graph_3d: examples/slam/pose_graph_3d/CMakeFiles/pose_graph_3d.dir/build.make
 bin/pose_graph_3d: lib/libceres.a
+bin/pose_graph_3d: /usr/local/lib/libglog.so.0.7.0
 bin/pose_graph_3d: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-bin/pose_graph_3d: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/pose_graph_3d: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/pose_graph_3d: /usr/lib/x86_64-linux-gnu/libcholmod.so
 bin/pose_graph_3d: /usr/lib/x86_64-linux-gnu/libamd.so

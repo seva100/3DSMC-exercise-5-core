@@ -93,7 +93,7 @@ simple_bundle_adjuster_EXTERNAL_OBJECTS =
 bin/simple_bundle_adjuster: examples/CMakeFiles/simple_bundle_adjuster.dir/simple_bundle_adjuster.cc.o
 bin/simple_bundle_adjuster: examples/CMakeFiles/simple_bundle_adjuster.dir/build.make
 bin/simple_bundle_adjuster: lib/libceres.a
-bin/simple_bundle_adjuster: /usr/lib/x86_64-linux-gnu/libglog.so
+bin/simple_bundle_adjuster: /usr/local/lib/libglog.so.0.7.0
 bin/simple_bundle_adjuster: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/simple_bundle_adjuster: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/simple_bundle_adjuster: /usr/lib/x86_64-linux-gnu/libcholmod.so

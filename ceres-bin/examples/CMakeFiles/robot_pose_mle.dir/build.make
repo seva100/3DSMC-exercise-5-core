@@ -93,8 +93,8 @@ robot_pose_mle_EXTERNAL_OBJECTS =
 bin/robot_pose_mle: examples/CMakeFiles/robot_pose_mle.dir/robot_pose_mle.cc.o
 bin/robot_pose_mle: examples/CMakeFiles/robot_pose_mle.dir/build.make
 bin/robot_pose_mle: lib/libceres.a
+bin/robot_pose_mle: /usr/local/lib/libglog.so.0.7.0
 bin/robot_pose_mle: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-bin/robot_pose_mle: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/robot_pose_mle: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/robot_pose_mle: /usr/lib/x86_64-linux-gnu/libcholmod.so
 bin/robot_pose_mle: /usr/lib/x86_64-linux-gnu/libamd.so

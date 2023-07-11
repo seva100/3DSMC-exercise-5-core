@@ -354,12 +354,6 @@ Eigen3_DIR:PATH=/usr/lib/cmake/eigen3
 //Enable Google Flags.
 GFLAGS:BOOL=ON
 
-//Path to a file.
-GLOG_INCLUDE_DIR:PATH=/usr/include
-
-//Path to a library.
-GLOG_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libglog.so
-
 //Enable use of LAPACK directly within Ceres.
 LAPACK:BOOL=ON
 
@@ -479,13 +473,13 @@ USE_CUDA:BOOL=OFF
 benchmark_DIR:PATH=benchmark_DIR-NOTFOUND
 
 //Dependencies for the target
-ceres_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libglog.so;general;gflags;general;SuiteSparse::CHOLMOD;general;SuiteSparse::SPQR;general;/usr/lib/x86_64-linux-gnu/liblapack.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;/usr/lib/x86_64-linux-gnu/libf77blas.so;general;/usr/lib/x86_64-linux-gnu/libatlas.so;
+ceres_LIB_DEPENDS:STATIC=general;glog::glog;general;gflags;general;SuiteSparse::CHOLMOD;general;SuiteSparse::SPQR;general;/usr/lib/x86_64-linux-gnu/liblapack.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;/usr/lib/x86_64-linux-gnu/libf77blas.so;general;/usr/lib/x86_64-linux-gnu/libatlas.so;
 
 //The directory containing a CMake configuration file for gflags.
 gflags_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gflags
 
 //The directory containing a CMake configuration file for glog.
-glog_DIR:PATH=glog_DIR-NOTFOUND
+glog_DIR:PATH=/usr/local/lib/cmake/glog
 
 //Dependencies for the target
 gtest_LIB_DEPENDS:STATIC=general;Ceres::ceres;general;gflags;
@@ -732,15 +726,11 @@ COMPILER_HAS_HIDDEN_INLINE_VISIBILITY:INTERNAL=1
 //Test COMPILER_HAS_HIDDEN_VISIBILITY
 COMPILER_HAS_HIDDEN_VISIBILITY:INTERNAL=1
 //Details about finding Glog
-FIND_PACKAGE_MESSAGE_DETAILS_Glog:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-gnu/libglog.so][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Glog:INTERNAL=[glog::glog][v()]
 //Details about finding SuiteSparse
 FIND_PACKAGE_MESSAGE_DETAILS_SuiteSparse:INTERNAL=[/usr/include/suitesparse][/usr/lib/x86_64-linux-gnu/libcholmod.so][/usr/include/suitesparse][/usr/lib/x86_64-linux-gnu/libspqr.so][/usr/include/suitesparse][/usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so][/usr/include/suitesparse][/usr/lib/x86_64-linux-gnu/libamd.so][/usr/include/suitesparse][/usr/lib/x86_64-linux-gnu/libcamd.so][/usr/include/suitesparse][/usr/lib/x86_64-linux-gnu/libccolamd.so][/usr/include/suitesparse][/usr/lib/x86_64-linux-gnu/libcolamd.so][cfound components: CHOLMOD SPQR Config AMD CAMD CCOLAMD COLAMD missing components: Partition][v5.7.1(4.5.6)]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
-//ADVANCED property for variable: GLOG_INCLUDE_DIR
-GLOG_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GLOG_LIBRARY
-GLOG_LIBRARY-ADVANCED:INTERNAL=1
 //Test HAVE_BIGOBJ
 HAVE_BIGOBJ:INTERNAL=
 //Have library m

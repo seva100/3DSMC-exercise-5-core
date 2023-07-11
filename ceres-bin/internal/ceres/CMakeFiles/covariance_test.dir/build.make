@@ -111,11 +111,11 @@ bin/covariance_test: /usr/lib/x86_64-linux-gnu/libcamd.so
 bin/covariance_test: /usr/lib/x86_64-linux-gnu/libccolamd.so
 bin/covariance_test: /usr/lib/x86_64-linux-gnu/libcolamd.so
 bin/covariance_test: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
-bin/covariance_test: /usr/lib/x86_64-linux-gnu/libglog.so
 bin/covariance_test: /usr/lib/x86_64-linux-gnu/liblapack.so
 bin/covariance_test: /usr/lib/x86_64-linux-gnu/libblas.so
 bin/covariance_test: /usr/lib/x86_64-linux-gnu/libf77blas.so
 bin/covariance_test: /usr/lib/x86_64-linux-gnu/libatlas.so
+bin/covariance_test: /usr/local/lib/libglog.so.0.7.0
 bin/covariance_test: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 bin/covariance_test: internal/ceres/CMakeFiles/covariance_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/3DSMC-exercise-5-core/ceres-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/covariance_test"
