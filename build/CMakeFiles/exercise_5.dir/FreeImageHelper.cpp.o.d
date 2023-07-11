@@ -11,7 +11,6 @@ CMakeFiles/exercise_5.dir/FreeImageHelper.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h \
- /usr/include/c++/9/pstl/pstl_config.h \
  /usr/include/c++/9/bits/stringfwd.h /usr/include/c++/9/bits/memoryfwd.h \
  /usr/include/c++/9/bits/char_traits.h \
  /usr/include/c++/9/bits/stl_algobase.h \
@@ -98,9 +97,7 @@ CMakeFiles/exercise_5.dir/FreeImageHelper.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h \
  /usr/include/c++/9/ext/alloc_traits.h \
- /usr/include/c++/9/bits/alloc_traits.h /usr/include/c++/9/string_view \
- /usr/include/c++/9/limits /usr/include/c++/9/bits/functional_hash.h \
- /usr/include/c++/9/bits/string_view.tcc \
+ /usr/include/c++/9/bits/alloc_traits.h \
  /usr/include/c++/9/ext/string_conversions.h /usr/include/c++/9/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -124,38 +121,23 @@ CMakeFiles/exercise_5.dir/FreeImageHelper.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/9/bits/functional_hash.h \
  /usr/include/c++/9/bits/basic_string.tcc /usr/include/c++/9/algorithm \
  /usr/include/c++/9/utility /usr/include/c++/9/bits/stl_relops.h \
  /usr/include/c++/9/bits/stl_algo.h \
  /usr/include/c++/9/bits/algorithmfwd.h \
  /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
  /usr/include/c++/9/bits/stl_construct.h \
- /usr/include/c++/9/bits/uniform_int_dist.h \
- /usr/include/c++/9/pstl/glue_algorithm_defs.h \
- /usr/include/c++/9/functional /usr/include/c++/9/tuple \
- /usr/include/c++/9/array /usr/include/c++/9/stdexcept \
- /usr/include/c++/9/bits/uses_allocator.h \
- /usr/include/c++/9/bits/invoke.h /usr/include/c++/9/bits/refwrap.h \
- /usr/include/c++/9/bits/std_function.h /usr/include/c++/9/unordered_map \
- /usr/include/c++/9/ext/aligned_buffer.h \
- /usr/include/c++/9/bits/hashtable.h \
- /usr/include/c++/9/bits/hashtable_policy.h \
- /usr/include/c++/9/bits/node_handle.h /usr/include/c++/9/optional \
- /usr/include/c++/9/bits/enable_special_members.h \
- /usr/include/c++/9/bits/unordered_map.h \
- /usr/include/c++/9/bits/erase_if.h /usr/include/c++/9/vector \
- /usr/include/c++/9/bits/stl_uninitialized.h \
- /usr/include/c++/9/bits/stl_vector.h \
- /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /usr/include/c++/9/pstl/execution_defs.h /usr/include/FreeImage.h \
- /usr/include/inttypes.h /usr/include/c++/9/iostream \
- /usr/include/c++/9/ostream /usr/include/c++/9/ios \
- /usr/include/c++/9/bits/ios_base.h \
+ /usr/include/c++/9/bits/uniform_int_dist.h /usr/include/c++/9/limits \
+ /usr/include/FreeImage.h /usr/include/inttypes.h \
+ /usr/include/c++/9/iostream /usr/include/c++/9/ostream \
+ /usr/include/c++/9/ios /usr/include/c++/9/bits/ios_base.h \
  /usr/include/c++/9/bits/locale_classes.h \
  /usr/include/c++/9/bits/locale_classes.tcc \
  /usr/include/c++/9/system_error \
  /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
- /usr/include/c++/9/streambuf /usr/include/c++/9/bits/streambuf.tcc \
+ /usr/include/c++/9/stdexcept /usr/include/c++/9/streambuf \
+ /usr/include/c++/9/bits/streambuf.tcc \
  /usr/include/c++/9/bits/basic_ios.h \
  /usr/include/c++/9/bits/locale_facets.h /usr/include/c++/9/cwctype \
  /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \

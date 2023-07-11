@@ -9,11 +9,10 @@ CMakeFiles/exercise_5.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h \
- /usr/include/c++/9/pstl/pstl_config.h /usr/include/c++/9/ostream \
- /usr/include/c++/9/ios /usr/include/c++/9/iosfwd \
- /usr/include/c++/9/bits/stringfwd.h /usr/include/c++/9/bits/memoryfwd.h \
- /usr/include/c++/9/bits/postypes.h /usr/include/c++/9/cwchar \
- /usr/include/wchar.h \
+ /usr/include/c++/9/ostream /usr/include/c++/9/ios \
+ /usr/include/c++/9/iosfwd /usr/include/c++/9/bits/stringfwd.h \
+ /usr/include/c++/9/bits/memoryfwd.h /usr/include/c++/9/bits/postypes.h \
+ /usr/include/c++/9/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
@@ -96,9 +95,7 @@ CMakeFiles/exercise_5.dir/main.cpp.o: \
  /usr/include/c++/9/initializer_list \
  /usr/include/c++/9/bits/basic_string.h \
  /usr/include/c++/9/ext/alloc_traits.h \
- /usr/include/c++/9/bits/alloc_traits.h /usr/include/c++/9/string_view \
- /usr/include/c++/9/limits /usr/include/c++/9/bits/functional_hash.h \
- /usr/include/c++/9/bits/string_view.tcc \
+ /usr/include/c++/9/bits/alloc_traits.h \
  /usr/include/c++/9/ext/string_conversions.h /usr/include/c++/9/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -122,6 +119,7 @@ CMakeFiles/exercise_5.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/9/bits/functional_hash.h \
  /usr/include/c++/9/bits/basic_string.tcc \
  /usr/include/c++/9/bits/locale_classes.tcc \
  /usr/include/c++/9/system_error \
@@ -156,19 +154,7 @@ CMakeFiles/exercise_5.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/9/bits/specfun.h /usr/include/c++/9/tr1/gamma.tcc \
- /usr/include/c++/9/tr1/special_function_util.h \
- /usr/include/c++/9/tr1/bessel_function.tcc \
- /usr/include/c++/9/tr1/beta_function.tcc \
- /usr/include/c++/9/tr1/ell_integral.tcc \
- /usr/include/c++/9/tr1/exp_integral.tcc \
- /usr/include/c++/9/tr1/hypergeometric.tcc \
- /usr/include/c++/9/tr1/legendre_function.tcc \
- /usr/include/c++/9/tr1/modified_bessel_func.tcc \
- /usr/include/c++/9/tr1/poly_hermite.tcc \
- /usr/include/c++/9/tr1/poly_laguerre.tcc \
- /usr/include/c++/9/tr1/riemann_zeta.tcc /usr/include/c++/9/sstream \
- /usr/include/c++/9/bits/sstream.tcc \
+ /usr/include/c++/9/sstream /usr/include/c++/9/bits/sstream.tcc \
  /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h \
@@ -180,23 +166,9 @@ CMakeFiles/exercise_5.dir/main.cpp.o: \
  /usr/include/c++/9/utility /usr/include/c++/9/bits/stl_relops.h \
  /usr/include/c++/9/array /usr/include/c++/9/bits/uses_allocator.h \
  /usr/include/c++/9/bits/invoke.h /usr/include/c++/9/bits/refwrap.h \
- /usr/include/c++/9/bits/std_function.h /usr/include/c++/9/unordered_map \
- /usr/include/c++/9/ext/aligned_buffer.h \
- /usr/include/c++/9/bits/hashtable.h \
- /usr/include/c++/9/bits/hashtable_policy.h \
- /usr/include/c++/9/bits/node_handle.h /usr/include/c++/9/optional \
- /usr/include/c++/9/bits/enable_special_members.h \
- /usr/include/c++/9/bits/unordered_map.h \
- /usr/include/c++/9/bits/erase_if.h /usr/include/c++/9/vector \
- /usr/include/c++/9/bits/stl_construct.h \
- /usr/include/c++/9/bits/stl_uninitialized.h \
- /usr/include/c++/9/bits/stl_vector.h \
- /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /usr/include/c++/9/bits/stl_algo.h \
- /usr/include/c++/9/bits/algorithmfwd.h \
- /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
- /usr/include/c++/9/bits/uniform_int_dist.h /usr/include/c++/9/cstring \
- /usr/include/string.h /usr/include/strings.h /usr/include/c++/9/climits \
+ /usr/include/c++/9/bits/std_function.h /usr/include/c++/9/cstring \
+ /usr/include/string.h /usr/include/strings.h /usr/include/c++/9/limits \
+ /usr/include/c++/9/climits \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -205,9 +177,11 @@ CMakeFiles/exercise_5.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /usr/include/c++/9/algorithm \
- /usr/include/c++/9/pstl/glue_algorithm_defs.h \
- /usr/include/c++/9/pstl/execution_defs.h \
+ /usr/include/c++/9/algorithm /usr/include/c++/9/bits/stl_algo.h \
+ /usr/include/c++/9/bits/algorithmfwd.h \
+ /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
+ /usr/include/c++/9/bits/stl_construct.h \
+ /usr/include/c++/9/bits/uniform_int_dist.h \
  /usr/include/eigen3/Eigen/src/Core/util/Constants.h \
  /usr/include/eigen3/Eigen/src/Core/util/Meta.h \
  /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
@@ -375,7 +349,10 @@ CMakeFiles/exercise_5.dir/main.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /usr/include/eigen3/Eigen/StdVector \
+ /usr/include/eigen3/Eigen/StdVector /usr/include/c++/9/vector \
+ /usr/include/c++/9/bits/stl_uninitialized.h \
+ /usr/include/c++/9/bits/stl_vector.h \
+ /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
  /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h \
  /usr/include/eigen3/Eigen/src/StlSupport/details.h \
  /usr/include/eigen3/Eigen/Eigenvalues \
@@ -397,7 +374,9 @@ CMakeFiles/exercise_5.dir/main.cpp.o: \
  /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/LevenbergMarquardt.h \
  /usr/include/eigen3/Eigen/Sparse /usr/include/eigen3/Eigen/SparseCore \
  /usr/include/c++/9/map /usr/include/c++/9/bits/stl_tree.h \
+ /usr/include/c++/9/ext/aligned_buffer.h \
  /usr/include/c++/9/bits/stl_map.h /usr/include/c++/9/bits/stl_multimap.h \
+ /usr/include/c++/9/bits/erase_if.h \
  /usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
  /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
  /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
@@ -479,9 +458,11 @@ CMakeFiles/exercise_5.dir/main.cpp.o: \
  /usr/include/FreeImage.h /usr/include/inttypes.h \
  /workspaces/3DSMC-exercise-5-core/SimpleMesh.h \
  /workspaces/3DSMC-exercise-5-core/ICPOptimizer.h \
- /usr/local/include/ceres/ceres.h \
- /usr/local/include/ceres/autodiff_cost_function.h \
- /usr/include/c++/9/memory /usr/include/c++/9/bits/stl_raw_storage_iter.h \
+ /usr/include/ceres/ceres.h /usr/include/ceres/autodiff_cost_function.h \
+ /usr/include/ceres/internal/autodiff.h /usr/include/ceres/jet.h \
+ /usr/include/ceres/fpclassify.h /usr/include/ceres/internal/port.h \
+ /usr/include/ceres/internal/config.h /usr/include/c++/9/memory \
+ /usr/include/c++/9/bits/stl_raw_storage_iter.h \
  /usr/include/c++/9/ext/concurrence.h \
  /usr/include/c++/9/bits/unique_ptr.h \
  /usr/include/c++/9/bits/shared_ptr.h \
@@ -490,11 +471,10 @@ CMakeFiles/exercise_5.dir/main.cpp.o: \
  /usr/include/c++/9/bits/atomic_base.h \
  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
  /usr/include/c++/9/backward/auto_ptr.h \
- /usr/include/c++/9/pstl/glue_memory_defs.h \
- /usr/local/include/ceres/internal/autodiff.h \
- /usr/local/include/ceres/internal/array_selector.h \
- /usr/local/include/ceres/internal/fixed_array.h \
- /usr/local/include/ceres/internal/memory.h \
+ /usr/include/ceres/internal/eigen.h \
+ /usr/include/ceres/internal/fixed_array.h \
+ /usr/include/ceres/internal/macros.h \
+ /usr/include/ceres/internal/manual_constructor.h \
  /usr/local/include/glog/logging.h /usr/include/c++/9/chrono \
  /usr/include/c++/9/ratio /usr/include/c++/9/ctime \
  /usr/include/c++/9/bits/parse_numbers.h /usr/include/unistd.h \
@@ -508,59 +488,35 @@ CMakeFiles/exercise_5.dir/main.cpp.o: \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
  /usr/include/gflags/gflags_gflags.h /usr/include/c++/9/atomic \
  /usr/local/include/glog/log_severity.h \
- /usr/local/include/glog/vlog_is_on.h /usr/local/include/ceres/types.h \
- /usr/local/include/ceres/internal/disable_warnings.h \
- /usr/local/include/ceres/internal/export.h \
- /usr/local/include/ceres/internal/reenable_warnings.h \
- /usr/local/include/ceres/internal/eigen.h \
- /usr/local/include/ceres/internal/parameter_dims.h \
- /usr/local/include/ceres/internal/integer_sequence_algorithm.h \
- /usr/local/include/ceres/jet_fwd.h \
- /usr/local/include/ceres/internal/variadic_evaluate.h \
- /usr/local/include/ceres/cost_function.h /usr/local/include/ceres/jet.h \
- /usr/include/c++/9/numeric /usr/include/c++/9/bits/stl_numeric.h \
- /usr/include/c++/9/pstl/glue_numeric_defs.h \
- /usr/local/include/ceres/internal/jet_traits.h \
- /usr/local/include/ceres/internal/port.h \
- /usr/local/include/ceres/sized_cost_function.h \
- /usr/local/include/ceres/internal/parameter_dims.h \
- /usr/local/include/ceres/autodiff_first_order_function.h \
- /usr/local/include/ceres/first_order_function.h \
- /usr/local/include/ceres/autodiff_manifold.h \
- /usr/local/include/ceres/manifold.h \
- /usr/local/include/ceres/conditioned_cost_function.h \
- /usr/local/include/ceres/context.h \
- /usr/local/include/ceres/cost_function_to_functor.h \
- /usr/local/include/ceres/dynamic_cost_function_to_functor.h \
- /usr/local/include/ceres/dynamic_cost_function.h \
- /usr/local/include/ceres/covariance.h \
- /usr/local/include/ceres/internal/config.h \
- /usr/local/include/ceres/crs_matrix.h \
- /usr/local/include/ceres/dynamic_autodiff_cost_function.h \
- /usr/local/include/ceres/dynamic_numeric_diff_cost_function.h \
- /usr/local/include/ceres/internal/numeric_diff.h \
- /usr/local/include/ceres/numeric_diff_options.h \
- /usr/local/include/ceres/evaluation_callback.h \
- /usr/local/include/ceres/gradient_checker.h \
- /usr/local/include/ceres/gradient_problem.h \
- /usr/local/include/ceres/gradient_problem_solver.h \
- /usr/local/include/ceres/iteration_callback.h \
- /usr/local/include/ceres/line_manifold.h \
- /usr/local/include/ceres/internal/householder_vector.h \
- /usr/local/include/ceres/internal/sphere_manifold_functions.h \
- /usr/local/include/ceres/loss_function.h \
- /usr/local/include/ceres/numeric_diff_cost_function.h \
- /usr/local/include/ceres/numeric_diff_first_order_function.h \
- /usr/local/include/ceres/ordered_groups.h /usr/include/c++/9/set \
+ /usr/local/include/glog/vlog_is_on.h \
+ /usr/include/ceres/internal/variadic_evaluate.h \
+ /usr/include/ceres/types.h \
+ /usr/include/ceres/internal/disable_warnings.h \
+ /usr/include/ceres/internal/reenable_warnings.h \
+ /usr/include/ceres/internal/scoped_ptr.h \
+ /usr/include/ceres/sized_cost_function.h \
+ /usr/include/ceres/cost_function.h \
+ /usr/include/ceres/autodiff_local_parameterization.h \
+ /usr/include/ceres/local_parameterization.h \
+ /usr/include/ceres/cost_function_to_functor.h /usr/include/c++/9/numeric \
+ /usr/include/c++/9/bits/stl_numeric.h \
+ /usr/include/ceres/dynamic_cost_function_to_functor.h \
+ /usr/include/ceres/dynamic_cost_function.h \
+ /usr/include/ceres/covariance.h /usr/include/ceres/crs_matrix.h \
+ /usr/include/ceres/dynamic_autodiff_cost_function.h \
+ /usr/include/ceres/dynamic_numeric_diff_cost_function.h \
+ /usr/include/ceres/internal/numeric_diff.h \
+ /usr/include/ceres/numeric_diff_options.h \
+ /usr/include/ceres/gradient_problem.h \
+ /usr/include/ceres/gradient_problem_solver.h \
+ /usr/include/ceres/iteration_callback.h \
+ /usr/include/ceres/loss_function.h \
+ /usr/include/ceres/numeric_diff_cost_function.h \
+ /usr/include/ceres/ordered_groups.h /usr/include/c++/9/set \
  /usr/include/c++/9/bits/stl_set.h /usr/include/c++/9/bits/stl_multiset.h \
- /usr/local/include/ceres/problem.h \
- /usr/local/include/ceres/product_manifold.h \
- /usr/local/include/ceres/solver.h /usr/include/c++/9/unordered_set \
- /usr/include/c++/9/bits/unordered_set.h \
- /usr/local/include/ceres/sphere_manifold.h \
- /usr/local/include/ceres/version.h /usr/local/include/ceres/rotation.h \
- /usr/local/include/ceres/constants.h \
- /usr/local/include/ceres/internal/euler_angles.h \
+ /usr/include/ceres/problem.h /usr/include/ceres/context.h \
+ /usr/include/ceres/solver.h /usr/include/ceres/evaluation_callback.h \
+ /usr/include/ceres/version.h /usr/include/ceres/rotation.h \
  /usr/include/flann/flann.hpp /usr/include/flann/general.h \
  /usr/include/flann/defines.h /usr/include/flann/config.h \
  /usr/include/flann/util/matrix.h /usr/include/flann/util/serialization.h \

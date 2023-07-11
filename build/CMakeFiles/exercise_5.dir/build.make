@@ -108,20 +108,9 @@ exercise_5_EXTERNAL_OBJECTS =
 exercise_5: CMakeFiles/exercise_5.dir/main.cpp.o
 exercise_5: CMakeFiles/exercise_5.dir/FreeImageHelper.cpp.o
 exercise_5: CMakeFiles/exercise_5.dir/build.make
-exercise_5: /usr/local/lib/libceres.a
+exercise_5: /usr/lib/libceres.so.1.14.0
 exercise_5: /usr/lib/x86_64-linux-gnu/libglog.so
 exercise_5: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-exercise_5: /usr/lib/x86_64-linux-gnu/libspqr.so
-exercise_5: /usr/lib/x86_64-linux-gnu/libcholmod.so
-exercise_5: /usr/lib/x86_64-linux-gnu/libamd.so
-exercise_5: /usr/lib/x86_64-linux-gnu/libcamd.so
-exercise_5: /usr/lib/x86_64-linux-gnu/libccolamd.so
-exercise_5: /usr/lib/x86_64-linux-gnu/libcolamd.so
-exercise_5: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
-exercise_5: /usr/lib/x86_64-linux-gnu/liblapack.so
-exercise_5: /usr/lib/x86_64-linux-gnu/libblas.so
-exercise_5: /usr/lib/x86_64-linux-gnu/libf77blas.so
-exercise_5: /usr/lib/x86_64-linux-gnu/libatlas.so
 exercise_5: CMakeFiles/exercise_5.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/3DSMC-exercise-5-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable exercise_5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exercise_5.dir/link.txt --verbose=$(VERBOSE)
