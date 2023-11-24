@@ -7,7 +7,7 @@ cd cmake-3.28.0-rc5-linux-x86_64
 export PATH=`pwd`:$PATH
 
 # apt-get: dependencies for Ceres, Ceres itself, FLANN, Boost, Eigen, etc.
-sudo apt-get install libgflags-dev libatlas-base-dev libeigen3-dev libsuitesparse-dev build-essential g++ gdb python3-dev \
+sudo apt-get -y install libgflags-dev libatlas-base-dev libeigen3-dev libsuitesparse-dev build-essential g++ gdb python3-dev \
     autotools-dev libicu-dev libbz2-dev libboost-all-dev libflann-dev libfreeimage3 libfreeimage-dev lz4 libceres-dev
 
 # VSCode: install extensions CMake, CMake Tools, C/C++ Extension Pack
