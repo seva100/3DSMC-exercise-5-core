@@ -3,8 +3,7 @@ sudo apt update
 # installing the latest cmake
 wget https://github.com/Kitware/CMake/releases/download/v3.28.0-rc5/cmake-3.28.0-rc5-linux-x86_64.tar.gz
 tar xf cmake-3.28.0-rc5-linux-x86_64.tar.gz
-cd cmake-3.28.0-rc5-linux-x86_64
-export PATH=`pwd`:$PATH
+export PATH=`pwd`/cmake-3.28.0-rc5-linux-x86_64/bin:$PATH
 
 # apt-get: dependencies for Ceres, Ceres itself, FLANN, Boost, Eigen, etc.
 sudo apt-get -y install libgflags-dev libatlas-base-dev libeigen3-dev libsuitesparse-dev build-essential g++ gdb python3-dev \
