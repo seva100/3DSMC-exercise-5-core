@@ -11,6 +11,11 @@ sudo apt-get -y install libgflags-dev libatlas-base-dev libeigen3-dev libsuitesp
 
 # VSCode: install extensions CMake, CMake Tools, C/C++ Extension Pack
 
+# install the G++-11 (now dependency for glog on Ubuntu; needed to install the right version of GLIBCXX but G++-11 itself isn't gonna be used)
+sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+sudo apt update
+sudo apt install -y g++-11
+
 # install Glog from source
 git clone https://github.com/google/glog.git
 cd glog
